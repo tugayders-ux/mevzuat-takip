@@ -2,7 +2,7 @@ name: Mevzuat Taraması
 
 on:
   schedule:
-    - cron: "30 5 * * *"   # her gün 08:30 (Türkiye saati)
+    - cron: "30 5 * * *"
   workflow_dispatch:
     inputs:
       gun:
@@ -51,13 +51,13 @@ jobs:
           TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
           PR_URL: ${{ steps.pr.outputs.pull-request-url }}
-            run: |
+        run: |
           TOKEN=$(printf '%s' "$TOKEN" | tr -d '[:space:]')
           CHAT=$(printf '%s' "$CHAT" | tr -d '[:space:]')
-          curl -sS -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+          { cat /tmp/telegram.txt; echo; echo "$PR_URL"; } > /tmp/mesaj.txt
+          curl -sS --fail-with-body -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
             --data-urlencode "chat_id=${CHAT}" \
-            --data-urlencode "text=$(cat /tmp/telegram.txt)
-          ${PR_URL}"
+            --data-urlencode "text@/tmp/mesaj.txt"
           echo
 
       - name: Hata olursa Telegram'a haber ver
@@ -67,6 +67,8 @@ jobs:
           CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
-          curl -s -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+          TOKEN=$(printf '%s' "$TOKEN" | tr -d '[:space:]')
+          CHAT=$(printf '%s' "$CHAT" | tr -d '[:space:]')
+          curl -sS -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
             --data-urlencode "chat_id=${CHAT}" \
             --data-urlencode "text=⚠️ Mevzuat taraması hata verdi: ${RUN_URL}"
