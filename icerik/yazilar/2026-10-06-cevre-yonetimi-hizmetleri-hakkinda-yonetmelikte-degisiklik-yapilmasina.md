@@ -15,19 +15,19 @@ etiketler: [izin-lisans]
 
 ## Ne değişti?
 
-TODO: 2-3 cümleyle özetle.
+111
 
 ## Önemli maddeler
 
-TODO: Değişen/eklenen maddeleri listele (madde no + kısa açıklama).
+2222
 
 ## Kimleri etkiler?
 
-TODO: Üreticiler, belediyeler, tesis sahipleri vb.
+444
 
 ## Yürürlük tarihi
 
-TODO
+33333
 
 ## Kaynak
 
