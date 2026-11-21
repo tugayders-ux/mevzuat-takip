@@ -51,11 +51,14 @@ jobs:
           TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
           PR_URL: ${{ steps.pr.outputs.pull-request-url }}
-        run: |
-          curl -s -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+            run: |
+          TOKEN=$(printf '%s' "$TOKEN" | tr -d '[:space:]')
+          CHAT=$(printf '%s' "$CHAT" | tr -d '[:space:]')
+          curl -sS -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
             --data-urlencode "chat_id=${CHAT}" \
             --data-urlencode "text=$(cat /tmp/telegram.txt)
           ${PR_URL}"
+          echo
 
       - name: Hata olursa Telegram'a haber ver
         if: failure()
