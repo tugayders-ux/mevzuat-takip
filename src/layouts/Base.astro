@@ -1,0 +1,49 @@
+---
+import { yol } from '../lib/yol';
+const { title, aciklama = 'Güncel çevre mevzuatı ve sürdürülebilirlik notları.' } = Astro.props;
+const SITE_ADI = 'Çevre Mevzuat Notları'; // istediğin adla değiştir
+---
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content={aciklama} />
+  <title>{title ? `${title} · ${SITE_ADI}` : SITE_ADI}</title>
+</head>
+<body>
+  <header>
+    <a class="logo" href={yol('/')}>🌿 {SITE_ADI}</a>
+  </header>
+  <main><slot /></main>
+  <footer>Bu sitedeki yazılar bilgilendirme amaçlıdır; bağlayıcı metin Resmî Gazete'dir.</footer>
+</body>
+</html>
+
+<style is:global>
+  :root { --yesil: #2f6f4e; --metin: #1d2521; --soluk: #66726b; --cizgi: #e3e9e5; --zemin: #fbfcfb; }
+  @media (prefers-color-scheme: dark) {
+    :root { --yesil: #7fc6a0; --metin: #e8eeea; --soluk: #9aa7a0; --cizgi: #29322d; --zemin: #121714; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--zemin); color: var(--metin);
+         font: 17px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  header, main, footer { max-width: 720px; margin: 0 auto; padding: 1rem 1.25rem; }
+  header { border-bottom: 1px solid var(--cizgi); }
+  .logo { font-weight: 700; color: var(--yesil); text-decoration: none; }
+  a { color: var(--yesil); }
+  footer { color: var(--soluk); font-size: .85rem; border-top: 1px solid var(--cizgi); margin-top: 3rem; }
+  .meta { color: var(--soluk); font-size: .9rem; }
+  .etiket { display: inline-block; font-size: .78rem; padding: .05rem .55rem; margin-right: .3rem;
+            border: 1px solid var(--cizgi); border-radius: 99px; color: var(--soluk); }
+  .kart { padding: 1.1rem 0; border-bottom: 1px solid var(--cizgi); }
+  .kart h2 { margin: .2rem 0; font-size: 1.2rem; }
+  .kart h2 a { text-decoration: none; color: var(--metin); }
+  .like { font: inherit; cursor: pointer; padding: .35rem .9rem; border-radius: 99px;
+          border: 1px solid var(--cizgi); background: transparent; color: var(--metin); }
+  .like[aria-pressed="true"] { border-color: var(--yesil); color: var(--yesil); }
+  .like:disabled { opacity: .6; cursor: default; }
+  blockquote { margin: 1rem 0; padding: .6rem 1rem; border-left: 3px solid var(--yesil);
+               background: color-mix(in srgb, var(--yesil) 8%, transparent); }
+  blockquote p { margin: .2rem 0; }
+</style>

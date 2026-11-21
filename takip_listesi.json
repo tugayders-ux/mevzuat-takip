@@ -1,0 +1,44 @@
+{
+  "kurallar": [
+    {
+      "ad": "Atık Yönetimi",
+      "etiket": "atik",
+      "anahtar_kelimeler": ["atık yönetimi", "atıkların", "atık yağ", "atık pil", "atık elektrikli", "tıbbi atık", "inşaat ve yıkıntı", "atık getirme merkezi"]
+    },
+    {
+      "ad": "Sıfır Atık",
+      "etiket": "sifir-atik",
+      "anahtar_kelimeler": ["sıfır atık", "depozito yönetim", "ambalaj atık", "ambalaj atıklarının"]
+    },
+    {
+      "ad": "Çevre İzin ve Lisans",
+      "etiket": "izin-lisans",
+      "anahtar_kelimeler": ["çevre izin", "çevre izni", "çevre lisans", "geçici faaliyet belgesi", "çevre yönetimi hizmetleri"]
+    },
+    {
+      "ad": "ÇED",
+      "etiket": "ced",
+      "anahtar_kelimeler": ["çevresel etki değerlendirmesi", "çed yönetmeliği", "çevresel etki"]
+    },
+    {
+      "ad": "İklim",
+      "etiket": "iklim",
+      "anahtar_kelimeler": ["iklim kanunu", "iklim değişikliği", "emisyon ticaret", "sera gazı", "karbon"]
+    },
+    {
+      "ad": "Hava ve Emisyon",
+      "etiket": "hava-emisyon",
+      "anahtar_kelimeler": ["hava kalitesi", "sanayi kaynaklı hava", "endüstriyel emisyon", "baca gazı", "emisyon"]
+    },
+    {
+      "ad": "Su ve Atıksu",
+      "etiket": "su-atiksu",
+      "anahtar_kelimeler": ["su kirliliği", "atıksu", "arıtma", "kentsel atıksu", "içme suyu"]
+    },
+    {
+      "ad": "Kimyasallar",
+      "etiket": "kimyasal",
+      "anahtar_kelimeler": ["kimyasal", "kkdik", "tehlikeli madde", "sınıflandırma, etiketleme"]
+    }
+  ]
+}

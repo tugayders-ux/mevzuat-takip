@@ -1,0 +1,18 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { yol, tarih } from '../lib/yol';
+
+const yazilar = (await getCollection('yazilar')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+<Base>
+  <h1>Son güncellemeler</h1>
+  {yazilar.length === 0 && <p class="meta">Henüz yazı yok.</p>}
+  {yazilar.map((y) => (
+    <article class="kart">
+      <div class="meta">{tarih(y.data.date)}{y.data.tur && ` · ${y.data.tur}`}</div>
+      <h2><a href={yol(`/yazi/${y.id}/`)}>{y.data.title}</a></h2>
+      <div>{y.data.etiketler.map((e) => <span class="etiket">{e}</span>)}</div>
+    </article>
+  ))}
+</Base>

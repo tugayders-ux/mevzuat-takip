@@ -1,0 +1,23 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import LikeButton from '../../components/LikeButton.astro';
+import { yol, tarih } from '../../lib/yol';
+
+export async function getStaticPaths() {
+  const yazilar = await getCollection('yazilar');
+  return yazilar.map((y) => ({ params: { slug: y.id }, props: { y } }));
+}
+
+const { y } = Astro.props;
+const { Content } = await render(y);
+---
+<Base title={y.data.title}>
+  <p><a href={yol('/')}>← Tüm yazılar</a></p>
+  <p class="meta">{tarih(y.data.date)}{y.data.resmi_gazete_sayi && ` · Resmî Gazete sayı ${y.data.resmi_gazete_sayi}`}</p>
+  <h1>{y.data.title}</h1>
+  <div>{y.data.etiketler.map((e) => <span class="etiket">{e}</span>)}</div>
+  <Content />
+  <hr />
+  <LikeButton slug={y.id} />
+</Base>

@@ -1,0 +1,56 @@
+---
+const { slug } = Astro.props;
+---
+<button class="like" data-slug={slug} aria-pressed="false" aria-label="Beğen">
+  <span class="kalp">♡</span> <span class="sayi">–</span>
+</button>
+
+<script>
+  import { supabase, kullaniciGarantile } from '../lib/supabase';
+
+  function goster(btn: HTMLButtonElement, begenildi: boolean, sayi?: number) {
+    btn.setAttribute('aria-pressed', String(begenildi));
+    btn.querySelector('.kalp')!.textContent = begenildi ? '♥' : '♡';
+    if (sayi !== undefined) btn.querySelector('.sayi')!.textContent = String(Math.max(0, sayi));
+  }
+
+  async function baslat(btn: HTMLButtonElement) {
+    if (!supabase) { btn.disabled = true; return; }
+    const slug = btn.dataset.slug!;
+    let sayi = 0;
+    let begenildi = false;
+
+    const { count } = await supabase.from('begeniler')
+      .select('*', { count: 'exact', head: true }).eq('post_slug', slug);
+    sayi = count ?? 0;
+
+    const { data: { session } } = await supabase.auth.getSession();
+    if (session) {
+      const { data } = await supabase.from('begeniler').select('post_slug')
+        .eq('post_slug', slug).eq('user_id', session.user.id).maybeSingle();
+      begenildi = !!data;
+    }
+    goster(btn, begenildi, sayi);
+
+    btn.addEventListener('click', async () => {
+      btn.disabled = true;
+      try {
+        const user = await kullaniciGarantile();
+        if (!user) return;
+        if (begenildi) {
+          const { error } = await supabase!.from('begeniler').delete()
+            .eq('post_slug', slug).eq('user_id', user.id);
+          if (!error) { begenildi = false; sayi--; }
+        } else {
+          const { error } = await supabase!.from('begeniler').insert({ post_slug: slug });
+          if (!error) { begenildi = true; sayi++; }
+        }
+        goster(btn, begenildi, sayi);
+      } finally {
+        btn.disabled = false;
+      }
+    });
+  }
+
+  document.querySelectorAll<HTMLButtonElement>('.like').forEach(baslat);
+</script>
