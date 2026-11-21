@@ -1,0 +1,154 @@
+---
+title: "––  Çevre Yönetimi 
+Hizmetleri Hakkında Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik"
+date: 2026-10-06
+resmi_gazete_sayi: "33392"
+kaynak: "https://www.resmigazete.gov.tr/eskiler/2026/10/20261006-1.htm"
+tur: "Değişiklik"
+kurum: 
+etiketler: [izin-lisans]
+---
+
+- **Resmî Gazete:** 06.10.2026 — Sayı: 33392
+- **Yayımlayan kurum:**
+- **Değiştirilen düzenleme:**  (ilk yayın: 1/11/2022 tarihli, 32000 sayılı Resmî Gazete)
+- **Yürürlük:** Bu Yönetmelik yayımı tarihinde yürürlüğe girer.
+- **Kaynak:** [https://www.resmigazete.gov.tr/eskiler/2026/10/20261006-1.htm](https://www.resmigazete.gov.tr/eskiler/2026/10/20261006-1.htm)
+
+## Ne değişti?
+
+ 2-3 cümlelik genel özet.
+
+### Önceki hâli ve yeni hâli
+
+_Yeni hâl resmî metinden otomatik alındı; sadeleştir. Önceki hâli, değiştirilen düzenlemenin yürürlükteki metninden (mevzuat.gov.tr) elle yazılır._
+
+#### Madde 1
+
+**Önceki hâli:** 
+
+**Yeni hâli:**
+
+> 1/11/2022 tarihli ve 32000 sayılı Resmî Gazete’de yayımlanan Çevre Yönetimi Hizmetleri Hakkında Yönetmeliğin 1 inci maddesi aşağıdaki şekilde değiştirilmiştir. “MADDE 1- (1) Bu Yönetmeliğin amacı; çevre yönetimi hizmeti vereceklerin taşıması gereken şartlara, belgelendirilmelerine, yükümlülüklerine ve çevre yönetimi hizmeti alacak işletmelerin yükümlülüklerine ilişkin usul ve esasları belirlemektir.”
+
+#### Madde 2
+
+**Önceki hâli:** 
+
+**Yeni hâli:**
+
+> Aynı Yönetmeliğin 2 nci maddesi aşağıdaki şekilde değiştirilmiştir. “MADDE 2- (1) Bu Yönetmelik; çevre mevzuatı ve 10/9/2014 tarihli ve 29115 sayılı Resmî Gazete’de yayımlanan Çevre İzin ve Lisans Yönetmeliği uyarınca çevre yönetimi hizmeti verecek personelin, çevre yönetim birimlerinin ve çevre danışmanlık firmalarının taşıması gereken şartları, yükümlülüklerini, çalışma usul ve esaslarını, yeterlik belgesi başvurularının yapılmasını, değerlendirilmesini, yeterlik belgelerinin verilmesini, denetlenmesini, askıya alınmasını, iptalini, çevre yönetimi hizmeti alacak işletmeler ile işletmelerin yükümlülüklerini ve idari yaptırımlara ilişkin konuları kapsar.”
+
+#### Madde 3
+
+**Önceki hâli:** 
+
+**Yeni hâli:**
+
+> Aynı Yönetmeliğin 4 üncü maddesinin birinci fıkrasının (c) ve (s) bentleri aşağıdaki şekilde değiştirilmiş ve aynı fıkraya aşağıdaki bentler eklenmiştir. “c) Çevre danışmanlık firması: Çevre yönetimi hizmeti kapsamında usul ve esasları bu Yönetmelikle belirlenen başvuruları yapan, her türlü rapor ve teknik belgeyi hazırlamaya yetkili ve bunlardan sorumlu olan, aylık faaliyet raporunda aykırılıkları tespit ederek Bakanlığa bildirmekle yükümlü olan, hizmet verdiği tesis ve işletme çalışanlarına ve sorumlularına çevresel konularda eğitim veren, nitelik ve nicelikleri bu Yönetmelikle belirlenen mühendislik ve fen fakültesi mezunlarından çevre yönetimi hizmeti yeterlik belgesine sahip olan personeli bünyesinde çalıştıran, ortaklık payı bakımından ortaklarının yüzde ellisinden fazlası çevre yönetimi hizmeti yeterlik belgesine sahip ve Bakanlık tarafından yetkilendirilen tüzel kişiliği,” “s) … (devamı resmî metinde)
+
+#### Madde 4
+
+**Önceki hâli:** 
+
+**Yeni hâli:**
+
+> Aynı Yönetmeliğin 5 inci maddesine aşağıdaki fıkralar eklenmiştir. “(8) Çevre İzin ve Lisans Yönetmeliği EK-1 listesinde yer alan işletmeler ayda en az iki iş günü, EK-2 listesinde yer alan işletmeler ile bu listelerde yer almayan ancak hizmet alan işletmeler ayda en az bir iş günü çevre yönetimi hizmeti almak zorundadır. (9) Bakanlık işletmelerin çevresel konulardaki kirleticilik riskleri ve kapasitelerini göz önüne alarak gerekli gördüğü hallerde, ilgili teknik birim yetkililerinden oluşturulacak komisyon marifeti ile sekizinci fıkra kapsamında çevre yönetimi hizmeti alacak işletmelerin aylık hizmet alma sürelerinde değişiklik yapabilir. Bu fıkraya ilişkin usul ve esaslar, Bakanlık tarafından belirlenir ve Bakanlığın internet sayfasında yayımlanır.”
+
+#### Madde 5
+
+**Önceki hâli:** 
+
+**Yeni hâli:**
+
+> Aynı Yönetmeliğin 6 ncı maddesinin birinci fıkrasının (b) bendi aşağıdaki şekilde yeniden düzenlenmiş, üçüncü fıkrası aşağıdaki şekilde değiştirilmiş, dördüncü fıkrasında yer alan “en fazla 120 gün” ibaresi “ilgili mevzuatında belirtilen yasal sürelerde” şeklinde değiştirilmiş, beşinci fıkrası aşağıdaki şekilde yeniden düzenlenmiş ve aynı maddeye aşağıdaki fıkralar eklenmiştir. “b) Üniversitelerin çevre mühendisliği hariç diğer mühendislik bölümlerinden veya ilgili fakültelerin fizik, kimya, biyoloji, biyokimya, jeoloji bölümlerinden mezun olanlardan; çevre mühendisliği, çevre bilimleri, çevre teknolojileri veya çevre yönetimi konularında tezli lisansüstü eğitim almış olanlara mezuniyet belgeleriyle,” “(3) Çevre danışmanlık firması yeterlik belgesi; a) Tam süreli istihdam edilen, 4/5 oranında birinci fıkranın (a) bendi uyarınca çevre mühendisi olarak belgelendirilen en az beş … (devamı resmî metinde)
+
+#### Madde 6
+
+**Önceki hâli:** 
+
+**Yeni hâli:**
+
+> Aynı Yönetmeliğin 7 nci maddesinin birinci fıkrasındaki (g) bendi aşağıdaki şekilde değiştirilmiş, aynı fıkraya aşağıdaki bentler eklenmiş, üçüncü fıkrasının (p) bendi aşağıdaki şekilde değiştirilmiş, aynı fıkraya aşağıdaki bent eklenmiş, dördüncü fıkrasının (b) bendi ve beşinci fıkrasının (a) bendi aşağıdaki şekilde yeniden düzenlenmiş, beşinci fıkrasının (c) bendinde yer alan “uygunsuzluğu” ibaresi “uygunsuzluğu/aykırılığı” şeklinde değiştirilmiş ve aynı fıkraya aşağıdaki bent eklenmiştir. “g) İşletmede tespit edilen uygunsuzluğu aylık faaliyet raporuna yazmak, uygunsuzluğun giderilmesine ilişkin işletme sahibine/sorumlusuna önerilerde bulunmak, uygunsuzluğu 90 gün içinde gidermeyen işletmeler hakkında bu sürenin sonundan itibaren en geç 10 gün içinde yetkili makama bildirimde bulunmak.” “n) Çevre yönetimi hizmeti verilen işletmelerde tespit edilen aykırılıkları aylık faaliyet … (devamı resmî metinde)
+
+#### Madde 7
+
+**Önceki hâli:** 
+
+**Yeni hâli:**
+
+> Aynı Yönetmeliğin 8 inci maddesinin birinci fıkrasının (c) bendine aşağıdaki alt bent eklenmiştir. “4) Geçerli büro tescil belgesi.”
+
+#### Madde 8
+
+**Önceki hâli:** 
+
+**Yeni hâli:**
+
+> Aynı Yönetmeliğin 12 nci maddesinin beşinci fıkrası aşağıdaki şekilde yeniden düzenlenmiştir. “(5) Denetimler sonunda personelin veya çevre yönetim birimlerinin veya firmaların; a) Yanlış veya yanıltıcı bilgi verdiğinin veya belge düzenlediğinin tespit edilmesi halinde, b) Ceza puanı toplamının son dört yıl içinde 200 ceza puanına ulaşması halinde, yeterlik belgeleri iki yıl süre ile iptal edilir. Bu fıkranın (a) bendi kapsamında yeterlik belgesi iptal edilen personelin çevre yönetim biriminde veya firmada görev alması halinde bu çevre yönetim birimi veya firmaya da ceza puanı uygulanır.”
+
+#### Madde 9
+
+**Önceki hâli:** 
+
+**Yeni hâli:**
+
+> Aynı Yönetmeliğin 17 nci maddesinin dördüncü fıkrası aşağıdaki şekilde değiştirilmiş, beşinci fıkrasında yer alan “1/3’ünden” ibaresi “1/2’sinden” şeklinde değiştirilmiş ve aynı maddeye aşağıdaki fıkra eklenmiştir. “(4) Aylık asgari fiyat; sözleşmelerin imzalandığı tarihte geçerli olan, 22/5/2003 tarihli ve 4857 sayılı İş Kanunu uyarınca belirlenen katma değer vergisi hariç, aylık net asgari ücretin Çevre İzin ve Lisans Yönetmeliği EK-1 listesinde yer alan işletmeler için 3/4’üne, EK-2 listesinde yer alan işletmeler için ise 1/2’sine, var ise işletmenin geçici faaliyet belgesi veya çevre izni veya çevre izin ve lisans belgesinde yer alan her çevre izni veya çevre lisans konusu için ayrı ayrı olacak şekilde Bakanlıkça belirlenen çevre izin ve lisans birim fiyat bedellerinin yüzde beşi eklenerek hesaplanır. Bu fiyat hizmet verilecek her ay için ayrı ayrı belirlenir.” “(8) 5 inci maddenin … (devamı resmî metinde)
+
+#### Madde 10
+
+**Önceki hâli:** 
+
+**Yeni hâli:**
+
+> Aynı Yönetmeliğin 18 inci maddesine aşağıdaki fıkralar eklenmiştir. “(2) Bakanlık, afet ve salgın dönemlerinde, yeterlik belgesine sahip personel, çevre yönetim birimi ve firmalar için 6 ncı, 7 nci, 8 inci, 9 uncu, 12 nci, 13 üncü maddelerde yer alan hükümlerin uygulanmasında güçlüklerin oluşabileceği hallerde, etkilerin sürdüğü dönemleri kapsayacak şekilde ve herhalde geçici olmak kaydı ile uygulamaya ilişkin usul ve esasları belirleyebilir. (3) Yeterlik belgesine sahip olanlar, bu Yönetmelik kapsamındaki faaliyetlerle ilgili Bakanlık tarafından yapılacak düzenlemelere, Bakanlık internet sitesindeki duyurulara ve bu Yönetmeliği uygulamak için oluşturulacak programlara belirlenecek süre içinde uymak zorundadır.”
+
+#### Madde 11
+
+**Önceki hâli:** 
+
+**Yeni hâli:**
+
+> Aynı Yönetmeliğe aşağıdaki ek madde eklenmiştir. “İdari yaptırım EK MADDE 1- (1) Bu Yönetmelik kapsamında çevre yönetimi hizmeti almayan işletmelere 2872 sayılı Kanunun 20 nci maddesinin birinci fıkrasının (m) bendi gereği idari para cezası verilir. (2) Yapılan denetimlerde 7 nci maddenin üçüncü fıkrasının (r) bendinde belirtilen aykırılıkları aylık faaliyet raporuna yazmayan, 30 gün içinde aykırılıkların giderilmesine yönelik resmi başvuru sürecini başlatmayan işletmeler hakkında yetkili makama bildirimde bulunmayan çevre danışmanlık firmalarına, 2872 sayılı Kanunun 20 nci maddesinin birinci fıkrasının (m) bendi gereği idari para cezası verilir. (3) Bu Yönetmelik kapsamında yükümlülüklerini yerine getirmediği tespit edilen personel, çevre yönetim birimi veya firmalara ceza puanı uygulanır. (4) Yapılan denetimlerde 7 nci maddenin beşinci fıkrası kapsamında çevre yönetimi hizmetine … (devamı resmî metinde)
+
+#### Madde 12
+
+**Önceki hâli:** 
+
+**Yeni hâli:**
+
+> Aynı Yönetmeliğin geçici 1 inci maddesine aşağıdaki fıkralar eklenmiştir. “(3) Bu fıkranın yürürlüğe girdiği tarihten önce çevre danışmanlık firması yeterlik belgesi almış firmalar tarafından yapılan vize, adres ve/veya ünvan değişikliği başvurularında 6 ncı maddenin üçüncü fıkrasının (d) bendinde belirtilen firmanın ortaklık payı bakımından ortaklarının yüzde ellisinden fazlasının çevre yönetimi hizmeti yeterlik belgesine sahip olması ile ilgili şart aranmaz. (4) Bu fıkranın yürürlüğe girdiği tarihten sonra firmaların satış yoluyla ortaklık yapısında değişiklik olması durumunda, 6 ncı maddenin üçüncü fıkrasının (d) bendinde belirtilen firmanın ortaklık payı bakımından ortaklarının yüzde ellisinden fazlasının çevre yönetimi hizmeti yeterlik belgesine sahip olması şartının sağlanması gerekir.”
+
+#### Madde 13
+
+**Önceki hâli:** 
+
+**Yeni hâli:**
+
+> Aynı Yönetmeliğin geçici 2 nci maddesi aşağıdaki şekilde yeniden düzenlenmiştir. “GEÇİCİ MADDE 2- (1) Bu maddenin yürürlüğe girdiği tarihten önce çevre danışmanlık firması yeterlik belgesi almış firmalar, 6 ncı maddenin üçüncü fıkrasında belirtilen büro tescil belgesi ile ilgili şartı, 1/1/2027 tarihinden itibaren sağlamakla yükümlüdür. (2) 7 nci maddenin birinci fıkrasının (b) bendinde belirtilen aylık faaliyet raporlarının ıslak imzalı olarak hazırlanmasına devam edilir. Ancak sistemin aktif hale geldiğinin Bakanlığın internet sayfasında duyurulmasını müteakip, aylık faaliyet raporlarının ve aylık ziyarete ilişkin ön değerlendirmelerin sistem üzerinden kaydedilmesi, aylık faaliyet raporlarının işletme sahibi veya sorumlusu ile birlikte elektronik veya mobil imza ile sistem üzerinden imzalanması zorunludur. (3) Bu maddenin yürürlüğe girdiği tarihten önce işletmeler ile çevre … (devamı resmî metinde)
+
+#### Madde 14
+
+**Önceki hâli:** 
+
+**Yeni hâli:**
+
+> Aynı Yönetmeliğin Ek-1’i, Ek-2’si ve Ek-3’ü ekteki şekilde değiştirilmiştir.
+
+## Kimleri etkiler?
+
+_Düzenlemenin kapsam maddesine göre doğrula; gerekmeyenleri sil, eksikleri ekle._
+
+- Çevre danışmanlık firmaları
+- Çevre görevlileri ve çevre yönetim birimleri
+- İzin ve lisansa tabi işletmeler
+
+## Bu düzenleme sonrası kim ne yapmalı?
+
+- **Çevre danışmanlık firmaları:** 
+- **Çevre görevlileri ve çevre yönetim birimleri:** 
+- **İzin ve lisansa tabi işletmeler:**
+
+## Kaynak
+
+[Resmî Gazete'de oku](https://www.resmigazete.gov.tr/eskiler/2026/10/20261006-1.htm)
