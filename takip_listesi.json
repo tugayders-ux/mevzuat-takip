@@ -3,42 +3,50 @@
     {
       "ad": "Atık Yönetimi",
       "etiket": "atik",
-      "anahtar_kelimeler": ["atık yönetimi", "atıkların", "atık yağ", "atık pil", "atık elektrikli", "tıbbi atık", "inşaat ve yıkıntı", "atık getirme merkezi"]
+      "anahtar_kelimeler": ["atık yönetimi", "atıkların", "atık yağ", "atık pil", "atık elektrikli", "tıbbi atık", "inşaat ve yıkıntı", "atık getirme merkezi", "lastik", "ömrünü tamamlamış"],
+      "etkilenenler": ["Atık üreticileri", "Atık toplama, taşıma, geri kazanım ve bertaraf tesisleri", "Belediyeler", "Çevre danışmanlık firmaları"]
     },
     {
       "ad": "Sıfır Atık",
       "etiket": "sifir-atik",
-      "anahtar_kelimeler": ["sıfır atık", "depozito yönetim", "ambalaj atık", "ambalaj atıklarının"]
+      "anahtar_kelimeler": ["sıfır atık", "depozito yönetim", "ambalaj atık", "ambalaj atıklarının"],
+      "etkilenenler": ["Ambalaj üreten ve piyasaya süren işletmeler", "Belediyeler", "Kamu kurum ve kuruluşları", "Yetkilendirilmiş kuruluşlar"]
     },
     {
       "ad": "Çevre İzin ve Lisans",
       "etiket": "izin-lisans",
-      "anahtar_kelimeler": ["çevre izin", "çevre izni", "çevre lisans", "geçici faaliyet belgesi", "çevre yönetimi hizmetleri"]
+      "anahtar_kelimeler": ["çevre izin", "çevre izni", "çevre lisans", "geçici faaliyet belgesi", "çevre yönetimi hizmetleri"],
+      "etkilenenler": ["Çevre danışmanlık firmaları", "Çevre görevlileri ve çevre yönetim birimleri", "İzin ve lisansa tabi işletmeler"]
     },
     {
       "ad": "ÇED",
       "etiket": "ced",
-      "anahtar_kelimeler": ["çevresel etki değerlendirmesi", "çed yönetmeliği", "çevresel etki"]
+      "anahtar_kelimeler": ["çevresel etki değerlendirmesi", "çed yönetmeliği", "çevresel etki"],
+      "etkilenenler": ["Proje sahipleri", "ÇED raporunu hazırlayan kuruluşlar", "Çevre danışmanlık firmaları"]
     },
     {
       "ad": "İklim",
       "etiket": "iklim",
-      "anahtar_kelimeler": ["iklim kanunu", "iklim değişikliği", "emisyon ticaret", "sera gazı", "karbon"]
+      "anahtar_kelimeler": ["iklim kanunu", "iklim değişikliği", "emisyon ticaret", "sera gazı", "karbon"],
+      "etkilenenler": ["Emisyon izleme ve raporlama kapsamındaki tesisler", "Belediyeler ve il yönetimleri", "Doğrulama kuruluşları"]
     },
     {
       "ad": "Hava ve Emisyon",
       "etiket": "hava-emisyon",
-      "anahtar_kelimeler": ["hava kalitesi", "sanayi kaynaklı hava", "endüstriyel emisyon", "baca gazı", "emisyon"]
+      "anahtar_kelimeler": ["hava kalitesi", "sanayi kaynaklı hava", "endüstriyel emisyon", "baca gazı", "emisyon"],
+      "etkilenenler": ["Emisyon kaynağı olan tesisler", "Ölçüm yapan laboratuvarlar", "Çevre danışmanlık firmaları"]
     },
     {
       "ad": "Su ve Atıksu",
       "etiket": "su-atiksu",
-      "anahtar_kelimeler": ["su kirliliği", "atıksu", "arıtma", "kentsel atıksu", "içme suyu"]
+      "anahtar_kelimeler": ["su kirliliği", "atıksu", "arıtma", "kentsel atıksu", "içme suyu"],
+      "etkilenenler": ["Atıksu üreten işletmeler", "Arıtma tesisi işletmecileri", "Belediyeler ve su idareleri"]
     },
     {
       "ad": "Kimyasallar",
       "etiket": "kimyasal",
-      "anahtar_kelimeler": ["kimyasal", "kkdik", "tehlikeli madde", "sınıflandırma, etiketleme"]
+      "anahtar_kelimeler": ["kimyasal", "kkdik", "tehlikeli madde", "sınıflandırma, etiketleme"],
+      "etkilenenler": ["Kimyasal üreticileri, ithalatçıları ve kullanıcıları", "Tedarikçiler", "Çevre ve iş sağlığı danışmanlık firmaları"]
     }
   ]
 }

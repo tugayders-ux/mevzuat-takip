@@ -80,58 +80,140 @@ def eslesenler(baslik, kurallar):
     return [k for k in kurallar if any(norm(a) in n for a in k["anahtar_kelimeler"])]
 
 
-def ham_metin(url):
-    """Düzenlemenin HTML metninden ilk bölümü alır (PDF ise boş döner)."""
+SAYI_RE = re.compile(r"say[ıiIİ]\s*[:：]?\s*(\d{5})", re.I)
+RG_REF_RE = re.compile(r"(\d{1,2}/\d{1,2}/\d{4})\s+tarihli\s+ve\s+(\d{4,6})\s+sayılı")
+KURUM_RE = re.compile(
+    r"^\s*(.{3,120}?(?:Bakanlığı|Başkanlığı|Kurumu|Kurulu|Müdürlüğü|Üniversitesi))(?:ndan|nden):\s*$",
+    re.M,
+)
+YURURLUK_RE = re.compile(r"MADDE\s*\d+\s*[-–—]\s*(Bu\s+[^.\n]{0,200}?yürürlüğe\s+girer)")
+BASLIK_ASIL_RE = re.compile(
+    r"^(.+?(?:Yönetmelik|Tebliğ|Kanun|Karar))(?:te|de|ta|da|nde|nda|inde|ında)?\s+Değişiklik"
+)
+ATLA_RE = re.compile(r"Bu\s+(?:Yönetmelik|Tebliğ)\s+(?:yayımı|yayım|\d)|Bu\s+(?:Yönetmelik|Tebliğ)\s+hükümlerini")
+
+
+def sayfa_metni(url):
+    """Düzenlemenin sayfa metnini satır yapısını koruyarak çeker (PDF ise boş)."""
     if url.lower().endswith(".pdf"):
         return ""
     try:
         r = requests.get(url, headers=HDR, timeout=30)
         r.raise_for_status()
-        metin = BeautifulSoup(r.content, "html.parser").get_text("\n")
-        metin = re.sub(r"\n\s*\n+", "\n\n", metin).strip()
-        return metin[:3000].replace("-->", "--&gt;")
-    except Exception as e:  # ham metin zorunlu değil
-        return f"(Metin çekilemedi: {e})"
+        ham = BeautifulSoup(r.content, "html.parser").get_text("\n")
+        satirlar = [re.sub(r"[ \t\u00a0]+", " ", x).strip() for x in ham.splitlines()]
+        return "\n".join(x for x in satirlar if x)
+    except Exception as e:
+        print(f"Metin çekilemedi ({url}): {e}")
+        return ""
 
 
-def taslak_yaz(g, sayi, baslik, url, kurallar):
+def maddeleri_ayikla(metin):
+    """Değiştiren düzenlemenin kendi maddelerini (yürürlük/yürütme hariç) döndürür."""
+    i = re.search(r"(?m)^MADDE\s*1\s*[-–—]", metin)
+    if not i:
+        return []
+    cikti_ = []
+    for parca in re.split(r"(?m)^(?=MADDE\s*\d+\s*[-–—])", metin[i.start():]):
+        parca = re.sub(r"\s+", " ", parca).strip()
+        m = re.match(r"MADDE\s*(\d+)\s*[-–—]\s*(.*)", parca)
+        if not m or ATLA_RE.match(m.group(2)):
+            continue
+        cikti_.append((m.group(1), m.group(2)))
+    return cikti_
+
+
+def asil_duzenleme(baslik, metin):
+    """(değiştirilen düzenlemenin adı, ilk yayın bilgisi)"""
+    m = BASLIK_ASIL_RE.match(baslik)
+    ad = m.group(1) if m else None
+    ref = RG_REF_RE.search(metin)
+    ilk = f"{ref.group(1)} tarihli, {ref.group(2)} sayılı Resmî Gazete" if ref else None
+    return ad, ilk
+
+
+def kisalt(t, n=900):
+    return t if len(t) <= n else t[:n].rsplit(" ", 1)[0] + " … (devamı resmî metinde)"
+
+
+def taslak_icerik(g, sayi, baslik, url, kurallar, metin):
     etiketler = [k["etiket"] for k in kurallar]
-    konular = ", ".join(k["ad"] for k in kurallar)
     tur = "Değişiklik" if "değişiklik" in norm(baslik) else "Yeni düzenleme / diğer"
-    dosya = YAZI_DIZINI / f"{g:%Y-%m-%d}-{slug(baslik)}.md"
-    if dosya.exists():
-        return None
+    degisiklik = tur == "Değişiklik"
+
+    if not sayi:
+        m = SAYI_RE.search(metin)
+        sayi = m.group(1) if m else "TODO"
+    km = KURUM_RE.search(metin)
+    kurum = km.group(1).strip() if km else "TODO"
+    ym = YURURLUK_RE.search(metin)
+    yururluk = (ym.group(1).strip() + ".") if ym else "TODO"
+    ad, ilk = asil_duzenleme(baslik, metin)
+
+    etkilenenler = []
+    for k in kurallar:
+        for e in k.get("etkilenenler", []):
+            if e not in etkilenenler:
+                etkilenenler.append(e)
+
+    satirlar = [
+        f"- **Resmî Gazete:** {g:%d.%m.%Y} — Sayı: {sayi}",
+        f"- **Yayımlayan kurum:** {kurum}",
+    ]
+    if degisiklik:
+        asil = ad or "TODO"
+        satirlar.append(f"- **Değiştirilen düzenleme:** {asil}" + (f" (ilk yayın: {ilk})" if ilk else ""))
+    satirlar += [
+        f"- **Yürürlük:** {yururluk}",
+        f"- **Kaynak:** [{url}]({url})",
+    ]
+
+    if degisiklik:
+        bloklar = []
+        for no, yazi in (maddeleri_ayikla(metin) or [("TODO", "TODO")]):
+            bloklar.append(
+                f"#### Madde {no}\n\n**Önceki hâli:** TODO\n\n**Yeni hâli:**\n\n> {kisalt(yazi)}\n"
+            )
+        degisim = (
+            "### Önceki hâli ve yeni hâli\n\n"
+            "_Yeni hâl resmî metinden otomatik alındı; sadeleştir. Önceki hâli, değiştirilen "
+            "düzenlemenin yürürlükteki metninden (mevzuat.gov.tr) elle yazılır._\n\n"
+            + "\n".join(bloklar)
+        )
+    else:
+        degisim = "### Ana hatlarıyla neler getiriyor?\n\nTODO: Başlıca hükümleri 3-5 maddede özetle.\n"
+
+    etki = "\n".join(f"- {e}" for e in etkilenenler) or "- TODO"
+    yapmali = "\n".join(f"- **{e}:** TODO" for e in etkilenenler) or "- **TODO:** TODO"
     baslik_fm = baslik.replace('"', '\\"')
-    ham = ham_metin(url)
-    icerik = f"""---
+    kurum_fm = kurum.replace('"', '\\"')
+
+    return f"""---
 title: "{baslik_fm}"
 date: {g:%Y-%m-%d}
 resmi_gazete_sayi: "{sayi}"
 kaynak: "{url}"
 tur: "{tur}"
+kurum: "{kurum_fm}"
 etiketler: [{", ".join(etiketler)}]
 ---
 
-> **Resmî Gazete:** {g:%d.%m.%Y} — Sayı: {sayi}
-> **Konu:** {konular}
-> **Tür:** {tur}
-> **Kaynak:** [{url}]({url})
+{chr(10).join(satirlar)}
 
 ## Ne değişti?
 
-TODO: 2-3 cümleyle özetle.
+TODO: 2-3 cümlelik genel özet.
 
-## Önemli maddeler
-
-TODO: Değişen/eklenen maddeleri listele (madde no + kısa açıklama).
-
+{degisim}
 ## Kimleri etkiler?
 
-TODO: Üreticiler, belediyeler, tesis sahipleri vb.
+_Düzenlemenin kapsam maddesine göre doğrula; gerekmeyenleri sil, eksikleri ekle._
 
-## Yürürlük tarihi
+{etki}
 
-TODO
+## Bu düzenleme sonrası kim ne yapmalı?
+
+{yapmali}
 
 ## Kaynak
 
@@ -139,10 +221,18 @@ TODO
 
 <!--
 HAM METİN (yazıyı hazırlarken referans; yayından önce bu bloğu sil)
-{ham}
+{metin[:12000].replace("-->", "--&gt;")}
 -->
 """
-    dosya.write_text(icerik, encoding="utf-8")
+
+
+def taslak_yaz(g, sayi, baslik, url, kurallar):
+    dosya = YAZI_DIZINI / f"{g:%Y-%m-%d}-{slug(baslik)}.md"
+    if dosya.exists():
+        return None
+    dosya.write_text(
+        taslak_icerik(g, sayi, baslik, url, kurallar, sayfa_metni(url)), encoding="utf-8"
+    )
     return dosya
 
 
@@ -156,8 +246,8 @@ def main():
         cikti(bulundu="false", gun=f"{g:%Y-%m-%d}")
         return
 
-    m = re.search(r"Say[ıi]\s*:?\s*(\d{4,6})", soup.get_text(" "))
-    sayi = m.group(1) if m else "?"
+    m = SAYI_RE.search(soup.get_text(" "))
+    sayi = m.group(1) if m else None
 
     gorulen, bulunanlar = set(), []
     for a in soup.find_all("a", href=True):
@@ -185,7 +275,7 @@ def main():
         cikti(bulundu="false", gun=f"{g:%Y-%m-%d}")
         return
 
-    satirlar = [f"📌 Mevzuat taraması — {g:%d.%m.%Y} (Sayı {sayi})", ""]
+    satirlar = [f"📌 Mevzuat taraması — {g:%d.%m.%Y} (Sayı {sayi or '?'})", ""]
     for baslik, url, es in olusan:
         satirlar.append(f"• {baslik}\n  [{', '.join(k['ad'] for k in es)}]")
     satirlar += ["", "Taslak(lar) hazır, onayını bekliyor:"]
