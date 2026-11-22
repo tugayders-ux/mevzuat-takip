@@ -12,6 +12,7 @@ import json
 import os
 import re
 import sys
+import time
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import urljoin
@@ -19,6 +20,8 @@ from zoneinfo import ZoneInfo
 
 import requests
 from bs4 import BeautifulSoup
+
+import karsilastir
 
 KOK = Path(__file__).resolve().parent.parent
 BASE = "https://www.resmigazete.gov.tr"
@@ -125,8 +128,7 @@ def maddeleri_ayikla(metin):
 
 def asil_duzenleme(baslik, metin):
     """(değiştirilen düzenlemenin adı, ilk yayın bilgisi)"""
-    m = BASLIK_ASIL_RE.match(baslik)
-    ad = m.group(1) if m else None
+    ad = karsilastir.asil_ad(baslik)
     ref = RG_REF_RE.search(metin)
     ilk = f"{ref.group(1)} tarihli, {ref.group(2)} sayılı Resmî Gazete" if ref else None
     return ad, ilk
@@ -169,17 +171,22 @@ def taslak_icerik(g, sayi, baslik, url, kurallar, metin):
     ]
 
     if degisiklik:
-        bloklar = []
-        for no, yazi in (maddeleri_ayikla(metin) or [("TODO", "TODO")]):
-            bloklar.append(
-                f"#### Madde {no}\n\n**Önceki hâli:** TODO\n\n**Yeni hâli:**\n\n> {kisalt(yazi)}\n"
+        arsiv = karsilastir.arsiv_bul(ad)
+        if arsiv:
+            degisim = karsilastir.degisiklik_bolumu(metin, arsiv)
+            DURUM[url] = "arşivle karşılaştırıldı"
+        else:
+            DURUM[url] = "arşivde bu yönetmelik yok, karşılaştırma yapılmadı"
+            degisim = (
+                "### Önceki hâli ve yeni hâli\n\n"
+                "_Bu yönetmelik mevzuat arşivinde yok; önceki hâli elle yazılır "
+                "(mevzuat.gov.tr)._\n\n"
+                + "\n".join(
+                    f"#### Madde {no}\n\n**Önceki hâli:** TODO\n\n**Yeni hâli:**\n\n"
+                    f"> {kisalt(yazi)}\n"
+                    for no, yazi in (maddeleri_ayikla(metin) or [("TODO", "TODO")])
+                )
             )
-        degisim = (
-            "### Önceki hâli ve yeni hâli\n\n"
-            "_Yeni hâl resmî metinden otomatik alındı; sadeleştir. Önceki hâli, değiştirilen "
-            "düzenlemenin yürürlükteki metninden (mevzuat.gov.tr) elle yazılır._\n\n"
-            + "\n".join(bloklar)
-        )
     else:
         degisim = "### Ana hatlarıyla neler getiriyor?\n\nTODO: Başlıca hükümleri 3-5 maddede özetle.\n"
 
@@ -226,6 +233,9 @@ HAM METİN (yazıyı hazırlarken referans; yayından önce bu bloğu sil)
 """
 
 
+DURUM = {}  # url -> karşılaştırma durumu (PR gövdesi için)
+
+
 def taslak_yaz(g, sayi, baslik, url, kurallar):
     dosya = YAZI_DIZINI / f"{g:%Y-%m-%d}-{slug(baslik)}.md"
     if dosya.exists():
@@ -233,6 +243,7 @@ def taslak_yaz(g, sayi, baslik, url, kurallar):
     dosya.write_text(
         taslak_icerik(g, sayi, baslik, url, kurallar, sayfa_metni(url)), encoding="utf-8"
     )
+    print("Taslak yazıldı:", baslik[:70], "|", DURUM.get(url, ""))
     return dosya
 
 
@@ -283,10 +294,13 @@ def main():
 
     govde = [f"## {g:%d.%m.%Y} taraması", ""]
     for baslik, url, es in olusan:
-        govde.append(f"- [{baslik}]({url}) — {', '.join(k['ad'] for k in es)}")
+        kaynak = DURUM.get(url, "")
+        govde.append(f"- [{baslik}]({url}) — {', '.join(k['ad'] for k in es)} — {kaynak}")
     govde += [
         "",
         "### Onay öncesi kontrol listesi",
+        "- [ ] Fark görünümünü ve önceki/yeni metinleri resmî metinle karşılaştırdım",
+        "- [ ] \"Ne değişti?\", \"Kimleri etkiler?\" ve \"Kim ne yapmalı?\" bölümlerini yazdım",
         "- [ ] Tüm `TODO` alanlarını doldurdum",
         "- [ ] Madde numaralarını resmî metinden kontrol ettim",
         "- [ ] Dosyanın sonundaki HAM METİN yorum bloğunu sildim",
