@@ -1,6 +1,6 @@
 [
-  {"no": 20033, "tur": 7, "tertip": 5},
-  {"no": 39799, "tur": 7, "tertip": 5},
-  {"no": 13184, "tur": 7, "tertip": 5},
-  {"no": 39647, "tur": 7, "tertip": 5}
+  {"no": 20033, "tur": 7, "tertip": 5, "ad": "Çevre İzin ve Lisans Yönetmeliği", "etiket": "izin-lisans"},
+  {"no": 39799, "tur": 7, "tertip": 5, "ad": "Çevre Yönetimi Hizmetleri Hakkında Yönetmelik", "etiket": "izin-lisans"},
+  {"no": 13184, "tur": 7, "tertip": 5, "ad": "Sanayi Kaynaklı Hava Kirliliğinin Kontrolü Yönetmeliği", "etiket": "hava-emisyon"},
+  {"no": 39647, "tur": 7, "tertip": 5, "ad": "Çevresel Etki Değerlendirmesi Yönetmeliği", "etiket": "ced"}
 ]

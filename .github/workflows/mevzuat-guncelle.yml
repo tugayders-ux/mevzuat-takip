@@ -1,0 +1,47 @@
+name: Mevzuat Arşivi
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # her Pazartesi 09:00 (Türkiye saati)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  arsiv:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: mevzuat.gov.tr'den güncel metinleri çek
+        run: python scripts/mevzuat_cek.py
+
+      - name: Arşiv değiştiyse PR aç
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: mevzuat/guncelleme
+          base: main
+          add-paths: mevzuat/
+          commit-message: "Mevzuat arşivi güncellemesi"
+          title: "Mevzuat arşivi güncellemesi"
+          body: |
+            mevzuat.gov.tr'deki güncel metinler arşivle karşılaştırıldı; farklı olanlar bu PR'da.
+            Files changed sekmesinden hangi maddelerin değiştiğine bak. Beklemediğin bir fark varsa merge etme.
+          delete-branch: true
+
+      - name: Ham yanıtları sakla (hata ayıklama)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mevzuat-ham
+          path: mevzuat_ham/
+          if-no-files-found: ignore
