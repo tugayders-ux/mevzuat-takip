@@ -1,6 +1,6 @@
 # Çevre Yönetimi Hizmetleri Hakkında Yönetmelik
 
-_Kaynak: https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=39799&MevzuatTur=7&MevzuatTertip=5 — çekim: 2026-11-22 19:54_
+_Kaynak: https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=39799&MevzuatTur=7&MevzuatTertip=5 — çekim: 2026-11-23 20:52_
 
 ### Madde 1 — Amaç
 _Değişik:RG-6/10/2026-33392_
