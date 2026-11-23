@@ -1,0 +1,499 @@
+{
+ "ad": "Sanayi Kaynaklı Hava Kirliliğinin Kontrolü Yönetmeliği",
+ "mevzuat_no": 13184,
+ "etiket": "hava-emisyon",
+ "kaynak": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=13184&MevzuatTur=7&MevzuatTertip=5",
+ "cekim": "2026-11-23 20:52",
+ "giris": [
+  "SANAYİ KAYNAKLI HAVA KİRLİLİĞİNİN KONTROLÜ YÖNETMELİĞİ",
+  "SANAYİ KAYNAKLI HAVA KİRLİLİĞİNİN KONTROLÜ YÖNETMELİĞİ"
+ ],
+ "maddeler": [
+  {
+   "id": "1",
+   "no": "1",
+   "tur": "madde",
+   "baslik": "Amaç",
+   "notlar": [
+    "Değişik:RG-20/12/2014-29211"
+   ],
+   "metin": "(1) Bu Yönetmeliğin amacı, sanayi ve enerji üretim tesislerinin faaliyeti sonucu atmosfere yayılan is, duman, toz, gaz, buhar ve aerosol halindeki emisyonları kontrol altına almak; insanı ve çevresini hava alıcı ortamındaki kirlenmelerden doğacak tehlikelerden korumaya; hava kirlenmeleri sebebiyle çevrede ortaya çıkan umuma ve komşuluk münasebetlerine önemli zararlar veren olumsuz etkileri gidermeye ve bu etkilerin ortaya çıkmasını engellemeye ilişkin usul ve esasları belirlemektir."
+  },
+  {
+   "id": "2",
+   "no": "2",
+   "tur": "madde",
+   "baslik": "Kapsam",
+   "notlar": [
+    "Değişik:RG-30/3/2010-27537",
+    "Değişik:RG-30/3/2010-27537"
+   ],
+   "metin": "(1) Bu Yönetmelik;\na)\n(1)\nİşletmelerin kurulması ve işletilmesi için gerekli esasları, işletmeden çıkan hava emisyonları ve işletmenin etki alanı içerisinde hava kirliliğinin önlenmesinin tetkik ve tespiti ile, yakıtların, ham maddelerin ve ürünlerin üretilmesi, kullanılması, depolanması ve taşınmasına ilişkin usul ve esasları kapsar.\nb) Aşağıdaki hususları kapsamaz:\n1) 9/7/1982 tarihli ve 2690 sayılı Türkiye Atom Enerjisi Kurumu Kanunu ile Türkiye Atom Enerjisi Kurumuna verilen yetki alanına giren, insan sağlığı ve çevrenin nükleer yakıt ve diğer radyoaktif maddelerin radyasyonundan korunmasında; ilgili tesis, alet ve düzenekleri.\n2) Açık ortam hariç olmak üzere iş sağlığı ve güvenliği mevzuatı kapsamına giren işyeri ortam havasını.\n3)\n(1)\nİşletme, 29/4/2009 tarihli ve 27214 sayılı Resmî Gazete’de yayımlanan Çevre Kanununca Alınması Gereken İzin ve Lisanslar Hakkında Yönetmeliğin 4 üncü maddesi kapsamında yer almıyorsa, işletmeyi oluşturan tesis/tesislerin iç ortamında hiçbir emisyonun oluşmadığı durumlarda ve bu kapsamda hava alıcı ortamına baca, kapı, pencere ya da benzeri açıklıklardan herhangi bir emisyonun söz konusu olmadığı tesis, alet ve düzenekleri ve alan kaynaklı emisyonların oluşmadığı faaliyetleri."
+  },
+  {
+   "id": "3",
+   "no": "3",
+   "tur": "madde",
+   "baslik": "Dayanak",
+   "notlar": [
+    "Değişik:RG-20/12/2014-29211"
+   ],
+   "metin": "(1) Bu Yönetmelik, 9/8/1983 tarihli ve 2872 sayılı Çevre Kanununa ve 29/6/2011 tarihli ve 644 sayılı Çevre ve Şehircilik Bakanlığının Teşkilat ve Görevleri Hakkında Kanun Hükmünde Kararnameye dayanılarak hazırlanmıştır."
+  },
+  {
+   "id": "4",
+   "no": "4",
+   "tur": "madde",
+   "baslik": "Tanımlar",
+   "notlar": [
+    "Değişik:RG-20/12/2014-29211"
+   ],
+   "metin": "(1) Bu Yönetmelikte geçen;\na) Atık gazlar: Katı, sıvı veya gaz emisyonlar ihtiva eden gaz halinde salımları,\nb) Az Atıklı Teknolojiler: Sanayi tesislerinden kaynaklanan atıkların üretim prosesinin son aşamasında arıtılmasına dayalı teknolojik seviye yerine tercih edilen ve temiz üretim tekniklerini temel alan, kirletmeyen, temiz ve az atıklı teknolojileri,\nc) Bacharach islilik derecesi: Bacharach Skalasında atık gaz içindeki partikül madde emisyonunun meydana getirdiği sayıyı,\nç) Bakanlık: Çevre ve Şehircilik Bakanlığını,\nd) Biyokütle: Tarım veya ormancılık ürünü olan ve tamamı veya bir kısmı içindeki enerjiyi geri kazanmak amacı ile yakıt olarak kullanılabilen bitkisel maddelerin tamamı veya bir kısmından oluşan ürünleri, tarım ve ormancılıktan kaynaklanan bitkisel atıkları, ortaya çıkan ısı geri kazanılabiliyorsa gıda işleme sanayisinden kaynaklanan bitkisel atığı, üretim mahallinde birlikte yakılıyorsa ve ortaya çıkan enerji geri kazanılıyorsa kağıt hamuru üretimi ve kağıt hamurundan kağıt üretimi sırasında oluşan lifli bitkisel atıkları, mantar atığını, ahşap koruyucuları ve kaplamaları ile muamele neticesi halojenli organik bileşikler veya ağır metaller ihtiva eden ve özellikle inşaat veya yıkım atıklarından kaynaklanan atıkları içerenler hariç olmak üzere odun atıklarını,\ne) Büyük Yakma Tesisi: Anma ısıl gücü 50 MW ve üzeri olan, yalnızca enerji üretimi için inşa edilen katı, sıvı veya gaz yakıtların kullanıldığı yakma tesislerini,\nf) CEN: Avrupa Standardizasyon Komitesini,\ng) Çevre İzni: Çevre Kanunu uyarınca alınması gereken; hava emisyonu, çevresel gürültü, atık su deşarjı, derin deniz deşarjı ve tehlikeli madde deşarjı konularından en az birini içeren izni,\nğ) Çift veya çoklu yakıt yakan tesis: Aynı anda veya değişimli olarak iki veya daha fazla yakıt ile ateşlenebilen yakma tesisini,\nh) Deneme izni: İş Yeri Açma ve Çalışma Ruhsatlarına ilişkin mevzuat kapsamında verilen izni,\nı) Dış Hava: Çalışma mekanları hariç, troposferde bulunan dış ortamlardaki havayı,\ni) Dizel Motor: Kendiliğinden sıkıştırmalı ateşlemeli motoru,\nj) Doğal gaz: Asal gazlar ve diğer içeriği hacimsel olarak % 20’sinden fazla olmayan, doğal yollardan oluşan metan gazını,\nk) Emisyon: Yakıt ve benzerlerinin yakılmasıyla; sentez, ayrışma, buharlaşma ve benzeri işlemlerle; maddelerin yığılması, ayrılması, taşınması ve diğer mekanik işlemler sonucu bir tesisten atmosfere yayılan hava kirleticilerini,\nl) Emisyon Envanteri: Sınırları belirlenmiş herhangi bir bölgede, hava kirletici kaynaklardan belli bir zaman aralığında atmosfere verilen kirleticilerin listesi, miktarı ve bunların toplam kirlilik içindeki paylarını gösteren bilgileri,\nm) Emisyon Faktörü: Herhangi bir faaliyetten veya ekipmandan kaynaklanan belirli bir kirleticinin birim hammadde, birim yakıt, birim hacim, birim zaman, birim alan için ortalama emisyon miktarını,\nn) Emisyon Kaynağı: Atmosfere emisyon veren baca veya baca dışı kaynağı,\no) Emisyon Ölçüm Raporu: Çevre izin veya lisans başvuru dosyasının bu Yönetmelik kapsamında hazırlanan hava emisyonları bölümüne esas raporu,\nö) Emisyon Ölçüm Raporu Geçerlilik Süresi: İlk ölçüm tarihi esas alınarak, 10/9/2014 tarihli ve 29115 sayılı Resmî Gazete’de yayımlanan Çevre İzin ve Lisans Yönetmeliği kapsamındaki işletmeler için emisyon ölçüm raporu geçerlilik süresi iki yılı,\np) Emisyon Sınır Değeri (yakma tesisleri için): Sıvı ve gaz yakıtlarda % 3, katı yakıtlarda % 6, gaz türbinlerinde % 15 oranında oksijen olduğu varsayılarak, mg/Nm3 olarak ifade edilen, kütle bölü atık gazın hacmi olarak hesaplanan ve yakma tesisinden havaya verilen atık gazların içinde bir maddenin bulunmasına izin verilen konsantrasyonu,\nr) Gaz Motoru: Otto çevrimi, kıvılcım ateşlemeli ateşleme sistemine sahip motoru,\ns) Gaz Türbini: Termik enerjiyi mekanik işe çeviren, çoğunlukla bir kompresör, yakıtın okside edilerek çalışan sıvıyı ısıttığı termik bir cihaz ve bir türbinden oluşan dönen makinelerin tümünü,\nş) Hava Kalitesi Değerlendirme ve Yönetimi Yönetmeliği: 6/6/2008 tarihli ve 26898 sayılı Resmî Gazete’de yayımlanan Hava Kalitesi Değerlendirme ve Yönetimi Yönetmeliğini,\nt) Hava Kirlenmesine Katkı Değeri (HKKD): Tesis etki alanı içinde her bir inceleme alanındaki tüm tepe noktalarında ve bütün yayılma durumları için hesaplanan değeri,\nu) ISO: Uluslararası Standardizasyon Teşkilatını,\nü) İçten Yanmalı Motor: Gaz veya dizel motoru,\nv) İşletmeci: Tesisi işleten veya tesis hakkında karar vermeye yetkili gerçek veya tüzel kişiyi,\ny) İşletme Sahası İçi: Üzerinde doldurma, ayırma, eleme, taşıma, kırma, öğütme işlemlerinin yapıldığı, madde depolanan, boşaltılan, tesisler arasındaki alanı,\nz) İş Termin Planı: Tesis sahibi tarafından hazırlanacak ve bu Yönetmelikte belirtilen yükümlülükleri ve sınır değerleri sağlayacak proses ve baca gazı arıtım tesislerinin gerçekleştirilmesi sürecinde yer alan proje, ihale, inşaat ve işletmeye alma gibi işlerin zamanlamasını gösteren planı,\naa) Kısa Vadeli Değer (KVD): Maksimum günlük ortalama değerler veya istatistik olarak bütün ölçüm sonuçları sayısal değerlerinin büyüklüğüne göre dizildiğinde, ölçüm sonuçlarının % 95 ine tekabül eden değeri, çöken tozlar için farklı olarak aşılmaması gereken maksimum aylık ortalama değerleri,\nbb) Kısa Vadeli Sınır Değer (KVS): Maksimum günlük ortalama değerleri veya sayısal değerlerinin büyüklüğüne göre dizildiğinde, istatistik olarak bütün ölçüm sonuçlarının % 95 ine tekabül eden ve Ek-2 Tablo 2.2 de belirtilen aşmaması gereken değeri,\ncc) Kirletici: Doğrudan veya dolaylı olarak insanlar tarafından dış havaya bırakılan ve insan sağlığı üzerinde ve/veya bütün olarak çevre üzerinde muhtemel zararlı etkileri olan her türlü maddeyi,\nçç) Kojenerasyon ve Kombine Çevrim: Enerjinin hem elektrik hem de ısı biçimlerinde aynı sistemden beraber üretilmesi veya tüm ısı makinalarının çevreye vermek zorunda oldukları atık ısıdan yararlanmayı,\ndd) Kritik Bölge: Bir yıl boyunca yapılan hava kalitesi ölçüm sonuçlarına göre kısa vadeli sınır değerlerin en az on beş gün aşıldığı yerleri,\nee) Kritik Meteorolojik Şartlar: Atmosferde alt sınırı yerden yedi yüz metre veya daha az yüksekte olan enversiyon tabakasında hava sıcaklığının en az 2°C/100 m arttığı ve yerden 10 m. yükseklikte ölçülen rüzgar hızının on iki saatlik ortalamada 1,5 m/s den az olduğu kritik meteorolojik durumu,\nff) Kükürt Giderme Oranı (Yakma tesisleri için) : Yakma tesisinde havaya salınmayan kükürt miktarının, yakma tesisine verilen ve kullanılan yakıtın içinde bulunan kükürt miktarına olan oranını,\ngg) Mevcut Tesis: Ek-5.A.1 kapsamındaki tesisler için; 8.6.2010 tarihinden önce, diğer tesisler için ise 3/7/2009 tarihinden önce kurulmuş veya Çevresel Etki Değerlendirmesi mevzuatına göre kurulması uygun bulunan tesisleri,\nğğ) Piyasaya Arz Edilen Sıvı Yakıtlar: Enerji Piyasası Düzenleme Kurumu tarafından düzenlenen/düzenlenecek mevzuatla üretimi, yurtdışı ve yurtiçi kaynaklardan temini ve piyasaya arzına izin verilen sıvı yakıtlar ile kalorifer yakıtını,\nhh) Teknolojik Seviye: Sürekli işletilmesinde başarısı tecrübeyle sabit, kıyaslanabilir metotlar, düzenekler ve işletme şekilleriyle kontrolleri yapılabilen; emisyon sınırlama tedbirlerini pratikleştiren ve kullanışlı hale getiren, ileri ve ülke şartlarında uygulanabilir teknolojik metotlar, düzenekler, işletme biçimleri ve temizleme metotlarının geldiği seviyeyi,\nıı) Uzun Vadeli Değer (UVD): Yapılan bütün ölçüm sonuçlarının aritmetik ortalaması olan değeri,\nii) Uzun Vadeli Sınır Değer (UVS): Yapılan bütün ölçüm sonuçlarının aritmetik ortalaması olan, Ek-2 Tablo 2.2 de belirtilen aşılmaması gereken değeri,\njj) Üretim Prosesi: Yakıtın ham madde ile birlikte muamele gördüğü veya yakıttan elde edilen enerjinin hammaddeyi veya ürünü kurutma, kavurma ve benzeri işlemlerde kullanıldığı ve bacasından proses kaynaklı baca gazı emisyonlarının ve yanma gazlarının birlikte çıktığı veya sadece proses kaynaklı baca gazı emisyonlarının çıktığı tesisleri,\nkk) Üretmek: Ürün elde etmek, işlemek, üretim amacıyla tüketmek ve diğer kullanımları, ithalat ve diğer amaçlı nakliyatları,\nll) Verimlilik: h ile ifade edilen gaz türbininin ISO temel yük şartlarında yüzde olarak belirtilen verimliliğini,\nmm) Yakıt: Sanayi ve enerji üretim tesislerinin yakma sistemlerini, ateşlemeye yarayan katı, sıvı veya gaz halindeki yanıcı maddeleri,\nnn) Yakma Isıl Gücü/Isıl Güç/Yakıt Isıl Gücü/Anma Isıl Gücü: Bir yakma tesisinde birim zamanda yakılan yakıt miktarının yakıt alt ısıl değeriyle çarpılması sonucu bulunan KW, MW birimleri ile ifade edilen asıl güç değerini,\noo) Yakma Tesisi: Yakıtları okside ederek oluşan ısının kullanıldığı teknik ekipmanı,\nöö) Yeni Tesis: Mevcut tesisler dışında kalan tesisi,\npp) Yetkili Merci: Çevre ve Şehircilik Bakanlığını,\nifade eder."
+  },
+  {
+   "id": "5",
+   "no": "5",
+   "tur": "madde",
+   "baslik": "Hava emisyonu kapsamında değerlendirilen işletmeler",
+   "notlar": [
+    "Başlığıyla birlikte değişik:RG-30/3/2010-27537"
+   ],
+   "metin": "(1)\n(1) Hava emisyonu olan ve Çevre Kanununca Alınması Gereken İzin ve Lisanslar Hakkında Yönetmelik kapsamında yer alan işletmelerin kurulması ve işletilmesi için çevre izni alınması zorunludur. Bu işletmelerden kaynaklanan hava emisyonlarının değerlendirilmesinde bu Yönetmelik hüküm esas ve sınır değerlerine göre iş ve işlemler yapılır.\nHava emisyonu kapsamında değerlendirilen işletmelerin kurulması ve işletilmesinde uyulması gereken esaslar"
+  },
+  {
+   "id": "6",
+   "no": "6",
+   "tur": "madde",
+   "baslik": "",
+   "notlar": [
+    "Başlığıyla birlikte değişik:RG-30/3/2010-27537"
+   ],
+   "metin": "(1)\n(1) Hava emisyonu kapsamında değerlendirilen işletmelerin kurulması ve işletilmesinde;\na) İşletmenin çevreye zararlı etkilerinin mevcut en iyi üretim ve/veya arıtım teknikleri uygulanarak azaltılmak suretiyle kirlilik oluşturmaması,\nb) Bu Yönetmelikte belirtilen şartlara uyulması,\nc) Bu Yönetmelikte belirtilen emisyon sınırlarının aşılmaması,\nç) Tesis etki alanında Ek-2’de verilen hava kalitesi sınır değerlerinin aşılmaması,\nd) İşletmede bulunan mevcut tesislerin baca gazı emisyonlarının bu Yönetmelikte belirtilen usullere uygun olarak işletmeci tarafından ölçtürülmesi, baca dışından emisyon yayan tesisler için hesaplama yöntemi kullanılarak saatlik kütlesel debilerin tespit edilmesi, (kg/saat)\ne) İşletmede bulunan tesislerin bütünü için; Ek-2 Tablo-2.1’deki kütlesel debilerin aşılması halinde işletmeci tarafından, tesislerin etki alanında, Ek-2’de belirtilen esaslar çerçevesinde hava kirliliği seviyesinin ölçülmesi ve işletmenin kirleticiliğinin değerlendirilmesi amacıyla uluslar arası kabul görmüş bir dağılım modeli kullanılarak, hava kirlenmesine katkı değerinin hesaplanması,\nf) Yeni kurulacak işletmelerde bulunan tesislerin baca gazı emisyonlarının kütlesel debi ve konsantrasyon olarak ve baca dışından emisyon yayan tesislerin atmosfere verdiği emisyonların saatlik kütlesel debilerinin tespit edilmesi,\ng) Yeni kurulacak işletmede bulunan tesislerin bütünü için; Ek-2 Tablo-2.1’deki kütlesel debilerin aşılması halinde işletmeci tarafından; tesislerin etki alanında, işletmenin kirleticiliğinin değerlendirilmesi amacıyla bir dağılım modeli kullanılarak hava kirlenmesine katkı değerinin hesaplanması, işletmenin kurulacağı alanda hava kirliliğinin önemli boyutlara ulaştığı kuşkusu varsa, hava kalitesinin bu Yönetmelikte belirtilen usullere uygun olarak ölçülmesi,\nğ) İşletmenin kurulu bulunduğu bölgede hava kirleticilerin Ek-2’de belirlenen hava kalitesi sınır değerlerini aşması durumunda işletmeci tarafından, Valilikçe hazırlanan eylem planlarına uyulması\ngerekmektedir."
+  },
+  {
+   "id": "7",
+   "no": "7",
+   "tur": "madde",
+   "baslik": "Emisyon ön izni",
+   "notlar": [
+    "Mülga:RG-30/3/2010-27537"
+   ],
+   "metin": "(1)"
+  },
+  {
+   "id": "8",
+   "no": "8",
+   "tur": "madde",
+   "baslik": "Çevre izni sürecinde hava emisyon başvurularının değerlendirmesi",
+   "notlar": [
+    "Başlığıyla birlikte değişik:RG-30/3/2010-27537",
+    "Değişik ibare:RG-13/4/2012-28263"
+   ],
+   "metin": "(1)\n(1) Çevre Kanununca Alınması Gereken İzin ve Lisanslar Hakkında Yönetmelik kapsamında yapılan hava emisyonu başvuruları aşağıda belirtilen çerçevede değerlendirilir.\na) Çevre izin başvurusu Çevre Kanununca Alınması Gereken İzin ve Lisanslar Hakkında Yönetmelikte yer alan hüküm ve esaslara uygun olarak yapılır ve bu Yönetmeliğin hüküm ve esasları çerçevesinde değerlendirilir.\nb) Çevre Kanununca Alınması Gereken İzin ve Lisanslar Hakkında Yönetmelikte belirtilen sürelerde değerlendirilir ve sonuçlandırılır.\nc) Çevre Kanununca Alınması Gereken İzin ve Lisanslar Hakkında Yönetmeliğin 4 üncü maddesi\nkapsamındaki Ek-1 ve Ek-2’de yer alan işletmelerin\naynı Yönetmeliğin 8 inci maddesi kapsamında değerlendirilmesinde; çalışma usul ve esasları Valilikçe belirlenen en az bir üyesi İl Çevre ve Orman Müdürlüğü teknik elemanı olmak üzere Valilikçe oluşturulan Komisyon tarafından bu Yönetmelik hükümleri çerçevesinde yerinde inceleme yapılır ve Valilik tarafından yerinde tespit raporu hazırlanır."
+  },
+  {
+   "id": "9",
+   "no": "9",
+   "tur": "madde",
+   "baslik": "Hava emisyon başvurularının incelenmesi ve karar verilmesi",
+   "notlar": [
+    "Başlığıyla birlikte değişik:RG-30/3/2010-27537",
+    "Değişik madde başlığı:RG-13/4/2012-28263"
+   ],
+   "metin": "(1)\n(1) Bu Yönetmeliğin 8 inci maddesinde belirtilen hususlar yerine getirildikten sonra, aşağıda belirtilen hususlar çerçevesinde çevre izin dosyasındaki hava emisyon dokümanlarının incelenmesi yapılır ve karar verilir.\na) İşletme, Çevre Kanununca Alınması Gereken İzin ve Lisanslar Hakkında Yönetmelik kapsamında yer alıyor ise ilgili Yönetmelikte belirtilen hususlar çerçevesinde hazırlanmış olan hava emisyonu dokümanları Bakanlıkça ve bu Yönetmeliğin 6 ncı maddesi ve diğer hüküm, esas ve sınır değerleri kapsamında incelenir.\nb) Hava emisyonu uygunluk kararı vermeye yetkili merci, gerekirse konu ile ilgili uzman kişi ve kuruluşların da görüşünü alır.\nc) İşletmeciler gerek başvuru dokümanlarındaki (bilgi, belge, ölçüm) eksiklikleri gerekse Yönetmelik hüküm ve esasları çerçevesindeki eksiklikleri/uygunsuzlukları çevre izni süreci içinde gidermek ve yetkili mercie eksikliklerin giderildiğine dair belge, bilgi ve ölçüm raporu ve ilgili diğer belgelerin teslim edilmesinden yükümlüdür.\nÇevre izni kapsamında hava emisyonu açısından değerlendirme"
+  },
+  {
+   "id": "10",
+   "no": "10",
+   "tur": "madde",
+   "baslik": "",
+   "notlar": [
+    "Başlığıyla birlikte değişik:RG-30/3/2010-27537",
+    "Ek:RG-13/4/2012-28263"
+   ],
+   "metin": "(1)\n(1) Bu Yönetmelik hüküm ve esaslarının sağlanması durumunda; Çevre Kanununca Alınması Gereken İzin ve Lisanslar Hakkında Yönetmelik kapsamında çevre izni verilmesine hava emisyonu uygunluk kararı verilir.\n(2)\nÇevre Kanununca Alınması Gereken İzin ve Lisanslar Hakkında Yönetmeliğin Ek-2’sinde yer alan “7. Gıda Endüstrisi, Tarım ve Hayvancılık” başlığı altındaki işletmeler, mezkûr Yönetmelik Ek-1 ve Ek-2 listelerinde başka bir grupta yer almıyorsa, söz konusu işletmeler için; çevre izni kapsamında emisyon ölçüm raporu hazırlanması ve işletmelerin hava emisyonu açısından değerlendirilmesi gerekmez."
+  },
+  {
+   "id": "11",
+   "no": "11",
+   "tur": "madde",
+   "baslik": "Şartlı ve kısmi izin",
+   "notlar": [
+    "Mülga:RG-30/3/2010-27537"
+   ],
+   "metin": "(1)"
+  },
+  {
+   "id": "12",
+   "no": "12",
+   "tur": "madde",
+   "baslik": "Kirlilikten kaynaklanan zararlar",
+   "notlar": [],
+   "metin": "(1) Bir işletmeden/tesisten kaynaklanan emisyonların etkilerinin komşu bir taşınmaza zarar vermesini önlemek amacıyla zararlı etkinin ortadan kaldırılması için gerekli tedbirlerin alınması faaliyet sahibinden yetkili merci tarafından istenir. Daha önce verilen ve kesinleşen bir izin bu Yönetmelik hükümlerine aykırılığın tespit edilmesi durumunda kaldırılır."
+  },
+  {
+   "id": "13",
+   "no": "13",
+   "tur": "madde",
+   "baslik": "İzne tabi tesislerde yapılacak değişiklikler",
+   "notlar": [
+    "Mülga:RG-30/3/2010-27537"
+   ],
+   "metin": "(1)"
+  },
+  {
+   "id": "14",
+   "no": "14",
+   "tur": "madde",
+   "baslik": "Teyit zorunluluğu",
+   "notlar": [
+    "Değişik:RG-13/4/2012-28263"
+   ],
+   "metin": "(1) İşletmeci veya işletme sahibi; çevre izni veya emisyon izni bulunan işletmeler için, emisyon iznine veya çevre iznine esas ölçüm raporunun tarihini esas alarak, Çevre Kanununca Alınması Gereken İzin ve Lisanslar Hakkında Yönetmeliğe göre çevre iznine ve lisansına tabi işletmelere iznin verildiği sırada öngörülen verilerden herhangi bir sapma olup olmadığını ve tesiste gerçekleştirilen iyileştirmeleri her iki yılda bir, rapor etmek zorundadır. Ölçüm raporu, standartlara uygun numune alma şartları ve ölçüm metotları dikkate alınıp, emisyon ölçümleri yapılmak suretiyle Ek-11’deki formata uygun olarak hazırlanır. Raporun bir nüshası işletmede muhafaza edilir, talepleri hâlinde yetkili mercilere veya denetimler sırasında denetim görevlilerine sunulur."
+  },
+  {
+   "id": "15",
+   "no": "15",
+   "tur": "madde",
+   "baslik": "Ek düzenlemelerin uygulanması",
+   "notlar": [
+    "Değişik ibare:RG-30/3/2010-27537",
+    "Değişik ibare:RG-30/3/2010-27537",
+    "Değişik ibare:RG-30/3/2010-27537"
+   ],
+   "metin": "(1) Ek düzenlemelerin uygulanmasında;\na) Bu Yönetmeliğin esaslarını yerine getirmek amacı ile\n(1)\nuygunluk kararı\nvermeye yetkili merci\nuygunluk kararı\nverildikten sonra gerektiğinde ek düzenlemeler isteyebilir. Bu ek düzenlemede Ek-9 daki esaslar dikkate alınır.\nb) Yapılacak ek düzenleme, işletici ve işletilen tesis için aşırı ekonomik yük getiriyorsa ve teknolojik seviye bakımından uygulanabilir değilse bu konuda bir mecburiyet getirilemez. Ek düzenleme teknolojik olarak uygulanabilir olmakla beraber ancak belli bir süre sonra ekonomik hale gelecekse yetkili merci ek düzenlemenin bu süreden sonra uygulanmasını kabul edebilir. Bir ek düzenleme teknolojik olarak uygulanabildiği halde, ekonomik sebeplerle tesisi işleten tarafından uygulanamazsa\n(1)\nuygunluk kararı\n17 nci madde hükümlerine göre iptal edilir.\nc) Ek düzenleme tesisin yeri, yapısı ve işletmesi üzerinde önemli değişiklikler gerektiriyorsa, yapılacak değişiklikler 13 üncü maddede öngörülen hükümlere tabidir.\nç) Ek düzenlemeler, Geçici 2 ve Geçici 3 üncü maddelerde yer alan tesislere de getirilebilir."
+  },
+  {
+   "id": "16",
+   "no": "16",
+   "tur": "madde",
+   "baslik": "İznin uzatılması",
+   "notlar": [
+    "Mülga:RG-30/3/2010-27537"
+   ],
+   "metin": "(1)"
+  },
+  {
+   "id": "17",
+   "no": "17",
+   "tur": "madde",
+   "baslik": "Hava emisyonu konulu çevre izninin iptal edilmesi (Değişik başlık:RG-13/4/2012-28263)",
+   "notlar": [
+    "Başlığıyla birlikte değişik:RG-30/3/2010-27537",
+    "Değişik cümle:RG-13/4/2012-28263",
+    "Değişik:RG-13/4/2012-28263"
+   ],
+   "metin": "(1)\n(1)\nBu Yönetmelik esaslarına göre işletme için verilen hava emisyonu konulu çevre izni;\na) Sürekli emisyon ölçümü yapılan tesislerde bir yıl içinde yapılan sürekli ölçüm sonuçlarının EK-3.d.1 de yer alan değerleri veya bir yıl içinde yapılan ölçümlerin %5 inde sınır değerlerinin aşılması halinde,\nb) Yetkili merci tarafından bu Yönetmelik hükümlerine göre uygunluk kararı verilmesinden sonra, uygunluk kararı verilmesine mani olacak ek bilgiler edinilmişse ve/veya uygunluk kararının kaldırılmaması kamu menfaatini tehlikeye sokuyorsa,\nc) Daha önce verilen uygunluk kararı henüz uygulamaya konulmadan, yetkili merci uygunluk kararı esaslarının değiştirilmesi sonucu uygunluk kararı veremiyor ise ve uygunluk kararının kaldırılmaması kamu menfaatini tehlikeye sokuyorsa,\nç)\nİşletmecinin veya İşletme sahibinin, 14 üncü maddede belirtilen sürelerde yapılması gereken teyit ölçümlerini yaptırmadığının tespit edilmesi hâlinde;\niptal edilir."
+  },
+  {
+   "id": "18",
+   "no": "18",
+   "tur": "madde",
+   "baslik": "İşletmenin adının değiştirilmesi ve/veya işletmenin devredilmesi",
+   "notlar": [
+    "Mülga:RG-30/3/2010-27537"
+   ],
+   "metin": "(1)\nÇevre iznine tabi olmayan işletmelerin kurulması, yapısal özellikler ve işletilmesinde aranacak şartlar"
+  },
+  {
+   "id": "19",
+   "no": "19",
+   "tur": "madde",
+   "baslik": "",
+   "notlar": [
+    "Başlığıyla birlikte değişik:RG-30/3/2010-27537"
+   ],
+   "metin": "(1)\n(1) Çevre iznine tabi olmayan işletmeler için aşağıdaki şartlara uyulur:\na) Türk Standartları Enstitüsü (TSE) tarafından Resmî Gazete’de yayımlanmış standartlar ile ilgili mevzuatta yer alan hüküm ve teknik özelliklere uyulur. Hava kirliliğinin yoğun olduğu günlerde Valilikçe alınan kararlara uyulur.\nb) Yetkili merci tarafından Çevre Kanununca Alınması Gereken İzin ve Lisanslar Hakkında Yönetmeliğin 13 üncü maddesi kapsamında gerekli görülmesi durumunda işletmeden kaynaklanan emisyonların ve hava kalitesinin ölçtürülmesi istenebilir. Bu ölçümler için yapılacak harcamaların karşılanması 27 nci maddede belirtilen şekilde yapılır.\nc) Bu Yönetmelik hüküm esas sınır değerlerine uygun faaliyet göstermeyen bu kapsamdaki işletmeler Çevre Kanununca Alınması Gereken İzin ve Lisanslar Hakkında Yönetmeliğin 13 üncü maddesi kapsamında değerlendirilir."
+  },
+  {
+   "id": "20",
+   "no": "20",
+   "tur": "madde",
+   "baslik": "İzne tabi olmayan tesisleri işletenlerin yükümlülükleri",
+   "notlar": [
+    "Mülga:RG-30/3/2010-27537"
+   ],
+   "metin": "(1)"
+  },
+  {
+   "id": "21",
+   "no": "21",
+   "tur": "madde",
+   "baslik": "Çevre iznine tabi olmayan işletmelerin izlenmesi/denetlenmesi",
+   "notlar": [
+    "Başlığıyla birlikte değişik:RG-30/3/2010-27537",
+    "Değişik madde başlığı:RG-30/3/2010-27537"
+   ],
+   "metin": "(1)\n(1) Çevre iznine tabi olmayan işletmelerin 19 uncu maddede belirtilen esaslara uygun olarak faaliyet gösterip göstermediği Valilikçe bu Yönetmelik hükümlerine uygun olarak izlenebilir/denetlenebilir.\n(1)"
+  },
+  {
+   "id": "22",
+   "no": "22",
+   "tur": "madde",
+   "baslik": "Çevre iznine tabi olmayan işletmeler için ek düzenlemeler",
+   "notlar": [
+    "Ek:RG-30/3/2010-27537"
+   ],
+   "metin": "(1) Yetkili merci 19 uncu maddedeki hususların uygulanması için ek düzenlemeler getirebilir.\n(2)\n(1)\nÇevre iznine tabi olmayan işletmeler Çevre Kanununca Alınması Gereken İzin ve Lisanslar Hakkında Yönetmeliğin 13 üncü maddesi kapsamında değerlendirilir."
+  },
+  {
+   "id": "23",
+   "no": "23",
+   "tur": "madde",
+   "baslik": "Hava emisyonu tespiti ve sınırlaması",
+   "notlar": [
+    "Başlığıyla birlikte değişik:RG-30/3/2010-27537"
+   ],
+   "metin": "(1)\n(1) Emisyon tespiti ve sınırlamasında aşağıdaki şartlara uyulur.\na) İşletmeyi oluşturan tesislerin çevreye zararlı etkilerinin tespiti amacıyla yetkili merci, çevre iznine tabi veya çevre iznine tabi olmayan bir işletmenin işleticisine, yetkili merci tarafından belirlenmiş uzman bir kurum/kuruluş veya kişiye tesisinden çıkan emisyonu ölçtürmesini ve/veya bu emisyonun hava kirlenmesine katkı değerini hesaplatmasını ve/veya hava kirliliği seviyesinin ölçümünü yaptırmasını ister; böylece bir emisyon ve imisyon ölçüm raporu hazırlanır ve bedeli 27 nci maddede belirtildiği şekliyle karşılanır.\nb) Hava kirliliğinin önemli boyutlarda olduğu kritik bölgelerde, çevre iznine tabi olan/olmayan işletmelerden kaynaklanan emisyonların miktarı ile zamana ve yere göre dağılımını gösteren hava kirlenmesine katkı değerini içeren bir emisyon ölçüm raporu yetkili merci tarafından istenebilir. Bu raporun her yıl yenilenmesi istenebilir.\nc) Emisyonların ölçümünde Ek-2’de belirtilen, tesis etrafında yapılması gerekli görülen hava kirliliği ölçümlerini düzenleyen 6/6/2008 tarihli ve 26898 sayılı Resmî Gazete’de yayımlanan Hava Kalitesi Değerlendirme ve Yönetimi Yönetmeliğindeki esaslar dikkate alınır. Tesis etki alanında hava kirliliğinin ölçümünde ise Ek-2’de yer alan esaslar dikkate alınır.\nç) Tesis etki alanında hava kirliliğinin tespitine yönelik yapılacak ölçümlerle ilgili koordinasyonu Valilik sağlar, bu ölçümler için yapılacak harcamalar 27 nci maddede belirtildiği şekilde karşılanır.\nd) Yetkili merci hava kirliliğinin önemli boyutlarda olduğu kritik bölgelerde ve/veya kirlilik yükü büyük olan yeni tesisler için bu Yönetmeliğin Ek-2’si kapsamında hava kalitesi ölçümlerinin yapılmasını isteyebilir."
+  },
+  {
+   "id": "24",
+   "no": "24",
+   "tur": "madde",
+   "baslik": "Emisyon ölçüm raporu",
+   "notlar": [
+    "Mülga:RG-20/12/2014-29211"
+   ],
+   "metin": "(1) Bakanlık, 14 üncü maddede ve 23 üncü maddenin birinci fıkrasının (a) ve (b) bentlerinde belirtilen emisyon ölçüm raporunun içeriğini tespit eder (Ek-11). Emisyon ölçüm raporundaki bilgilerde işletmenin endüstriyel ve ticari sırları varsa işletme sahibinin/işletmecinin talebi üzerine bu bilgiler umuma ifşa edilemez.\n(2)"
+  },
+  {
+   "id": "25",
+   "no": "25",
+   "tur": "madde",
+   "baslik": "İzne tabi tesislerde yapılacak ilk ve periyodik ölçümler",
+   "notlar": [
+    "Mülga:RG-30/3/2010-27537"
+   ],
+   "metin": "(1)"
+  },
+  {
+   "id": "26",
+   "no": "26",
+   "tur": "madde",
+   "baslik": "Sürekli ölçümler",
+   "notlar": [
+    "Değişik:RG-30/3/2010-27537",
+    "Değişik:RG-30/3/2010-27537"
+   ],
+   "metin": "(1) Sürekli ölçümlerde;\na)\n(1)\nYetkili merci tarafından sürekli ölçüm yapılmasına karar verilirken; bu Yönetmelik de sürekli ölçüm cihazı takılmasına esas teşkil eden değerler ve hükümler geçerli olmak üzere; Çevre Kanununca Alınması Gereken İzin ve Lisanslar Hakkında Yönetmeliğin 4 üncü maddesi kapsamındaki işletmelerin 23 üncü ve 25 inci maddeler kapsamındaki ölçümlerin yerine, bu ölçümlerin kayıt cihazlı ölçüm aletleriyle sürekli olarak yapılmasını isteyebilir. Ayrıca, yetkili merci gerekli görülmesi halinde bu ölçümlerin on line izlenmesine imkan tanıyacak donanımın kurulmasını işletmeciden isteyebilir.\nb)\n(1)\nKritik bölgelerde veya hava kalitesi açısından kirlilik yükü fazla olan bölgelerde ve kirlenme ihtimalinin olduğu hallerde yetkili mercii gerekli gördüğü takdirde izne tabi olan/ olmayan işletmelerden emisyon ölçümlerinin kayıt cihazlı ölçüm aletleriyle sürekli olarak yapılmasını isteyebilir. Ayrıca, Valilik gerekli görülmesi halinde bu ölçümlerin on line izlenmesine imkan tanıyacak donanımın kurulmasını işletmeciden isteyebilir.\n(2) Bu ölçümler için yapılacak harcamalar 27 nci maddede belirtildiği şekilde karşılanır."
+  },
+  {
+   "id": "27",
+   "no": "27",
+   "tur": "madde",
+   "baslik": "Ölçümler için yapılacak harcamalar",
+   "notlar": [],
+   "metin": "(1) Emisyon ve tesis etki alanındaki hava kalitesinin belirlenmesi için yapılacak ölçümlerin masrafları işletmenin sahibi/işletmeci tarafından karşılanır."
+  },
+  {
+   "id": "28",
+   "no": "28",
+   "tur": "madde",
+   "baslik": "Ölçüm sonuçları hakkında bilgi verilmesi",
+   "notlar": [],
+   "metin": "(1) 23, 25 ve 26 ncı maddelerde belirtilen ölçümlerin sonuçları işletmenin sahibi/işletmeci tarafından yetkili mercie verilir. Ölçüm kayıtları işletmenin sahibi/işletmeci tarafından en az beş yıl muhafaza edilir."
+  },
+  {
+   "id": "29",
+   "no": "29",
+   "tur": "madde",
+   "baslik": "Toplam hava emisyonu sınırlaması",
+   "notlar": [
+    "Değişik:RG-20/12/2014-29211"
+   ],
+   "metin": "(1) Yetkili merci, sanayi tesislerinin yoğun olarak bulunduğu, toplam emisyon sınırlaması yapılacak kritik bölgelerde faaliyet gösteren işletmelerin tümünden herhangi bir anda dış havaya verilen toplam emisyonu sınırlandırıcı tedbirler isteyebilir. Toplam emisyon sınırlaması yapılacak kritik bölgeler yetkili merci tarafından belirlenir. Yetkili merci, bu bölgelere kurulacak çevre iznine tabi olan veya olmayan yeni bir tesisin toplam emisyon miktarıyla ilgili olarak geçici veya sürekli sınırlandırma kararları alabilir veya yeni bir tesisin bölge içinde kurulmasına Planlama ve ÇED aşamalarında yapılan değerlendirmelerde dikkate alınarak uygunluk kararı vermeyebilir."
+  },
+  {
+   "id": "30",
+   "no": "30",
+   "tur": "madde",
+   "baslik": "Bölgesel kirlilik",
+   "notlar": [
+    "Değişik:RG-20/12/2014-29211"
+   ],
+   "metin": "(1) Koruma bölgeleri;\na) Bir bölgedeki işletmelerden, ulaşımdan ve ısınmadan kaynaklanan hava kirliliğinin insan ve çevresi üzerindeki zararlı etkileri normal tedbirlerle ortadan kaldırılamıyorsa bu bölgeler yetkili merci tarafından koruma bölgesi olarak ilan edilebilir. Yetkili merci, koruma bölgelerinde İl Mahalli Çevre Kurulu Kararıyla,\n1) Hareketli ve sabit tesisleri çalıştırmamaya,\n2) Sabit tesisleri kurdurmamaya,\n3) Hareketli ve sabit tesisleri sadece belirli zamanlarda çalıştırmaya veya bunlardan yüksek işletme teknikleri talep ederek çalıştırmaya,\n4) Tesislerde yakıt kullandırmamaya veya sınırlı olarak kullandırmaya\nyetkilidir.\nb) Yetkili merci, kritik meteorolojik şartların mevcut olduğu veya olacağı, hava kirlenmelerinin çok hızlı artış gösterdiği bölgelerde, insan ve çevresi üzerinde meydana gelecek zararlara karşı;\n1) Hareketli veya sabit tesisleri sadece belirli zamanlarda çalıştırmaya,\n2) Önemli ölçülerde hava kirlenmelerine yol açabilen yakıtların tesislerde kullanılmasını yasaklamaya veya sadece kısıtlamaya\nyetkilidir.\nc) Hava kirliliğinin çok hızlı artış gösterdiği durumlarda Hava Kalitesi Değerlendirme ve Yönetimi Yönetmeliğinde belirlenen uyarı kademeleri uygulanır.\nç) Hava kalitesi sınır değerleri aşılarak, hava kirliliği Ek-2 de belirtilen değerlere ulaştığında, bölge özelliklerine göre alınacak tedbirler yetkili merci tarafından tebliğ halinde yayımlanır.\nd) Her kademe için alınacak tedbirler düzenlenirken meteorolojik veriler göz önüne alınır. Sis, enverziyon, durgun meteorolojik şartlar ve izotermal durumlarda bir sonraki kademenin tedbirleri veya ilave tedbirler uygulanabilir. Nisbi nem miktarının % 90 ın üzerine çıkması halinde uyarı kademelerinin belirlenmesinde Ek-2 de verilen kirlilik derecelerinin % 10 eksiği esas alınır."
+  },
+  {
+   "id": "31",
+   "no": "31",
+   "tur": "madde",
+   "baslik": "Yakıt ve hammadde belirlenmesi",
+   "notlar": [],
+   "metin": "(1) Yetkili merci, hava kirliliğinin ciddi boyutlara eriştiği zamanlarda ve bölgelerde, yakıt ve hammaddesi değiştirilebilen tesislerde hava kirliliğinin azaltılması amacıyla kullanılacak uygun nitelikte yakıt veya hammadde belirleyebilir."
+  },
+  {
+   "id": "32",
+   "no": "32",
+   "tur": "madde",
+   "baslik": "Kaza sonucu emisyon",
+   "notlar": [],
+   "metin": "(1) Bir tesisten ihmal sonucu veya ihmale dayalı gereken tedbirlerin alınmaması sonucu normal çalışmasında öngörülenden fazla ve hava kirliliğine yol açacak şekilde emisyon yayılırsa veya hava kalitesini bozacak şekilde kimyasal maddeler hava alıcı ortamına atılırsa, işletme sahibi/işletmeci, emisyonun en kısa sürede normal seviyeye inmesi için gerekeni yapar. Yetkili merci, kaza sonucu çıkan emisyonun normal seviyeye indirilmesi için işletme sahibine veya işletmecisine gerekli tedbirleri almasını ister."
+  },
+  {
+   "id": "33",
+   "no": "33",
+   "tur": "madde",
+   "baslik": "Yakıt özellikleri",
+   "notlar": [
+    "Değişik madde başlığı:RG-30/3/2010-27537"
+   ],
+   "metin": "(1) Hava kirliliğinin azaltılması amacıyla sanayi tesislerinde kullanılacak olan katı yakıt özellikleri Bakanlık tarafından ilgili kamu kurum ve kuruluşların görüşleri de alınarak belirlenir. Piyasaya arz edilen sıvı ve gaz yakıtların özelliklerinin belirlenmesinde ilgili kamu kurum ve kuruluşlarla koordineli çalışılır.\n(2) Katı yakıtlar ithal ediliyorsa ithal işlemleri, Dış Ticaret Müsteşarlığı tarafından yayımlanan Dış Ticaret Standardizasyon Tebliği kapsamında ve ithal izni veren yetkili merci tarafından belirlenen hususlar çerçevesinde yapılır.\n(3) İthal katı yakıt kullanan tesis/işletme ithalat iznine ilişkin belgenin bir kopyasını muhafaza eder. Denetimlerde yetkili merci tarafından istenmesi halinde ibraz eder.\n(4) Sıvı yakıtları kullanan tesis/işletme sıvı yakıtlara ilişkin analiz raporlarını üç yıl saklar ve denetimlerde yetkili merci tarafından istenmesi halinde ibraz eder.\n(5) Yakıt olmayan ancak katı yakıt olarak değerlendirilebilen biyokütlenin kullanım esasları Bakanlıkça belirlenir.\n(6) Biyokütleyi katı yakıt olarak kullanan tesis bu Yönetmelik hükümlerine uymak zorundadır.\n(1)"
+  },
+  {
+   "id": "34",
+   "no": "34",
+   "tur": "madde",
+   "baslik": "Hava emisyonu açısından çevre iznine tabi tesislerin izlenmesi/denetlenmesi",
+   "notlar": [
+    "Değişik ibare:RG-30/3/2010-27537",
+    "Değişik:RG-30/3/2010-27537"
+   ],
+   "metin": "(1)\n(1)\nHava emisyonu açısından çevre iznine tabi tesislerin izlenmesi/denetlenmesinde;\na)\n(1)\nÇevre iznine tabi işletmelerde, faaliyetlerin Yönetmelikte belirtilen usul ve esaslar çerçevesinde yerine getirilip getirilmediğinin tespiti amacıyla yetkili merciin görevlendirdiği kişilerce izleme ve denetim yapılır. Bakanlık denetleme ve ceza yetkisini Çevre Kanununun 12 ve 24 üncü maddeleri gereğince devredebilir.\nb) İşletme sahipleri ve işletmeciler;\n1) Yetkili merciin görevlendirdiği kişilerin veya yetkili mercii temsil eden kişilerin işletmeye ve tesislere girmesi için izin vermeye,\n2) Emisyon ve hava kalitesi değerlerinin belirlenmesi maksadı ile görevli kişiler tarafından testler yapılmasına, izin vermeye ve kolaylık göstermeye,\n3) Görevli kişilere çevre mevzuatı kapsamında istenen ve gerekli olan doküman ve bilgileri vermeye\nmecburdur.\n4) Yetkili merciin isteği üzerine, işletme sahipleri işletmeci (a) ve (b) bentlerindeki çalışmalar sırasında işletme ve tesiste gerekli düzenlemeleri yapmak üzere istek üzerine işletmede çalışan görevlileri hizmete tahsis ederler. (a) ve (b) bentlerindeki çalışmaların yapılabilmesi için işletme sahipleri ve/veya işletmeciler iş güvenliği açısından gerekli olan koruyucu malzemeleri ve ulaşım araçlarını temin ederler.\nc) (a) bendi hükümleri, 33 üncü madde kapsamına giren yakıtlar, ürünler, maddeler ve tesisleri de içine alır. Bu hususlar işletme sahipleri/işletmeci için de geçerlidir. Bu işletme sahipleri/işletmeciler yetkili merciin görevlendirdiği kişilerin veya yetkili merciyi temsil eden kişilerin örnek almasına, işletme/tesis içinde ve bacasında kontroller yapmasına izin verirler.\nç) Denetim işlemleri ile ilgili olarak yapılan testler ve ölçümlerin masrafları, (a) ve (b) bentlerinin hükümlerine göre örnek alınması, bunların analizi, test yapılması dolayısıyla ortaya çıkan masraflar, işletme sahipleri işletmeciler tarafından karşılanır.\nd) Bilgi vermekle zorunlu işletme sahipleri/işletmeciler veya kanuni temsilcileri sorulan sorulara cevap vermekten kaçınırsa bu husus tutanakla kayda geçirilir.\ne) (b), (c) ve (d) bentlerine göre elde edilen bilgi ve belgeler başka amaçlar için kullanılamaz."
+  },
+  {
+   "id": "35",
+   "no": "35",
+   "tur": "madde",
+   "baslik": "Sera gazlarının azaltılması",
+   "notlar": [
+    "Mülga:RG-30/3/2010-27537"
+   ],
+   "metin": "(1)"
+  },
+  {
+   "id": "36",
+   "no": "36",
+   "tur": "madde",
+   "baslik": "İdari yaptırımlar",
+   "notlar": [
+    "Mülga:RG-30/3/2010-27537",
+    "Mülga:RG-30/3/2010-27537",
+    "Mülga:RG-30/3/2010-27537",
+    "Mülga:RG-30/3/2010-27537",
+    "Mülga:RG-30/3/2010-27537",
+    "Değişik:RG-30/3/2010-27537",
+    "Mülga:RG-30/3/2010-27537"
+   ],
+   "metin": "(1) Bu Yönetmelik kapsamına giren tesisleri işletenler ve/veya sahipleri;\na)\n(1)\nb)\n(1)\nc)\n(1)\nç)\n(1)\nd)\n(1)\ne)\n(1)\n6, 15, 22, 23, 26 ve 30 uncu maddeler ile getirilen icrası mümkün şartları ve talepleri zamanında yerine getirmezse,\nf) 19, 26 ve 33 üncü maddelere göre getirilen şartlara ve taleplere icrası mümkün olduğu halde uymazsa,\ng) 14 üncü maddede öngörülen bilgileri zamanında vermezse,\nğ) 23 ve 24 üncü maddelere göre verilmesi gereken emisyon raporunu eksiksiz ve zamanında vermezse,\nh) 28 inci maddeye göre ölçüm sonuçlarını bildirmez veya ölçüm aleti grafiklerini ve ölçüm kayıtlarını muhafaza etmezse,\nı) 34 üncü maddeye göre; görevlilerin meskun yerlere veya taşınmazlara girmelerine veya test ve incelemeler yapmalarına izin vermezse; doğru ve tam bilgiyi, belgeleri veya kayıtları zamanında ibraz etmezse; iş gücü veya yardımcı malzemeleri hazır tutmazsa; örnek almaya izin vermezse,\ni)\n(1)\nj) 32 nci maddede belirtilen tedbirleri almazsa,\nk) Bu Yönetmelikte belirtilen esas ve standartlara ve ek düzenlemelere uymazsa,\nl) 22 nci maddeye göre getirilen ek düzenlemeye uymazsa, ek düzenlemeye uyuluncaya kadar,\nm) İşletmeyi oluşturan tesislerin hava alıcı ortamında bozulmaya neden olacak şekilde hava kalitesi sınır değerlerini aşarak tehlikeli durum yarattığı takdirde,\nn) Geçici 3 üncü madde kapsamındaki yükümlülüklerini yerine getirmezse\nÇevre Kanununun ilgili maddeleri uyarınca idari yaptırım uygulanır."
+  },
+  {
+   "id": "37",
+   "no": "37",
+   "tur": "madde",
+   "baslik": "Yürürlükten kaldırılan yönetmelik",
+   "notlar": [
+    "Ek:RG-20/12/2014-29211"
+   ],
+   "metin": "(1) 22/7/2006 tarihli ve 26236 sayılı Resmî Gazete’de yayımlanan Endüstri Tesislerinden Kaynaklanan Hava Kirliliğinin Kontrolü Yönetmeliği yürürlükten kaldırılmıştır.\n(2)\n8/6/2010 tarihli ve 27605 sayılı Resmî Gazete’de yayımlanan Büyük Yakma Tesisleri Yönetmeliği yürürlükten kaldırılmıştır."
+  },
+  {
+   "id": "E1",
+   "no": "1",
+   "tur": "ek",
+   "baslik": "Yakma tesislerinin kapasitelerinin artırılması veya değiştirilmesi",
+   "notlar": [
+    "Ek:RG-20/12/2014-29211"
+   ],
+   "metin": "(1) Bir yakma tesisinin en az 50 MW genişletilmesi halinde, Ek-5.A.1.3’de belirtilen yeni tesisler için emisyon sınır değerleri, tesisin tamamının ısıl kapasitesine göre belirlenir ve tesisin yeni bölümüne uygulanır. Geçici 6 ncı maddede tanımlanan durumlarda bu madde uygulanmaz."
+  },
+  {
+   "id": "G1",
+   "no": "1",
+   "tur": "gecici",
+   "baslik": "Yeni emisyon sınır değerleri",
+   "notlar": [
+    "Mülga:RG-20/12/2014-29211"
+   ],
+   "metin": ""
+  },
+  {
+   "id": "G2",
+   "no": "2",
+   "tur": "gecici",
+   "baslik": "Emisyon izni almış işletmeler",
+   "notlar": [
+    "Mülga:RG-20/12/2014-29211"
+   ],
+   "metin": ""
+  },
+  {
+   "id": "G3",
+   "no": "3",
+   "tur": "gecici",
+   "baslik": "Emisyon izni almamış işletmeler",
+   "notlar": [
+    "Ek cümle:RG-10/10/2011-28080",
+    "Ek:RG-10/10/2011-28080",
+    "Değişik:RG-10/10/2011-28080"
+   ],
+   "metin": "(1) Hava Kalitesinin Korunması Yönetmeliğine göre emisyon izni alma yükümlülüğü bulunan ancak bu yükümlülüğünü yerine getirmeyen ve 31/12/2007 tarihine kadar iş termin planı ile birlikte bu madde kapsamında yetkili mercie başvuru yapmış olan, hava kalitesi modelleme raporları ile birlikte ölçüm cihazlarının (istasyonlarının) alımı konusunda sipariş verildiğine dair bilgi ve belgeleri Valilik kanalı ile Bakanlığa sunan ve en geç 31/12/2008 tarihine kadar hava kalitesi ölçüm cihazlarının (istasyonlarının) alımına, montajına ve ölçümlere başlayan ve iş termin planları Bakanlıkça uygun görülen tesisler, tesis etki alanında Ek-2 de yer alan hava kalitesi sınır değerlerini sağlayarak faaliyet gösterecek şekilde her türlü önlemi almakla ve 31/12/2011 tarihine kadar iş termin planında yer alan işleri tamamlamak suretiyle emisyon izni almak için emisyon izin dosyası hazırlayarak yetkili mercie başvurmakla yükümlüdürler.\nBu kapsamdaki tesislerin işletmecileri, hava kalitesi ölçüm istasyonu sonuçlarının çevrimiçi izlenmesine imkân verecek donanımları kurmakla mükelleftir. 31/12/2008 tarihine kadar sürekli hava kalitesi ölçüm cihazlarının (istasyonlarının) montajını tamamlamamış ve/veya ölçüm işlemlerine başlamamış olan tesisler bu madde kapsamında değerlendirilemez.\n(2)\nÖzelleştirme sürecindeki termik santrallerden 31/12/2011 tarihine kadar birinci fıkra hükümlerinin gereklerine uygun hâle getirilmemiş olanların özelleştirme sürecine ilişkin planlamanın Başbakanlık Özelleştirme İdaresi Başkanlığınca Bakanlığa bildirilmesi ve özelleştirilmesi öncesinde, işletmelerin bu Yönetmelik hükümlerine uygunluğunun sağlanması ve işletmecilerinin bu çerçevede alacakları tedbirlere ilişkin planlamalarını Bakanlığa sunmaları gerekir. Bu fıkra kapsamındaki tesislerin işletmecileri, özelleştirme sürecinin tamamlandığı tarihten itibaren üç ay içerisinde iş termin planlarını sunmak ve en geç iki yıl içerisinde çevre izni almak zorundadırlar. Özelleştirme sürecinin tamamlanıp tamamlanmadığına bakılmaksızın, bu tesisler için çevre iznini alma süresi 31/12/2017 tarihini geçemez.\n(3)\n(3)\nBu tesisler faaliyetlerini yukarıda belirtilen süreler içinde, tesis etki alanında Ek-2 de yer alan hava kalitesi sınır değerlerinin sağlanması ve hava kalitesinin ölçüm cihazları (istasyonları) ile sürekli izlenmesi ve ölçüm sonuçlarının kayıt altına alınması Valiliğe düzenli bildirimde bulunulması koşulu ile iş termin planlarına bağlı olarak sürdürebilir.\n(4)\n(3)\nTesis etki alanında Ek-2’de yer alan hava kalitesi sınır değerleri sağlanamadığı takdirde 6, 15, 22, 23, 30, 31, 32 ve 36 ncı maddelerde yer alan hükümler uygulanır. Hava kalitesi ile ilgili kritik koşulların ortaya çıkması halinde 29 uncu madde ile ilgili hükümler geçerlidir.\n(5)\n(3)\nBirinci fıkrada belirtilen sürelerde iş termin planı hazırlayarak yetkili mercie sunan ve hava kalitesi ölçümlerine başlayan tesisler iş termin planlarına uygun olarak faaliyet göstermelidir."
+  },
+  {
+   "id": "G4",
+   "no": "4",
+   "tur": "gecici",
+   "baslik": "Emisyon izin belgesi geçerlilik süresi",
+   "notlar": [
+    "Mülga:RG-30/3/2010-27537"
+   ],
+   "metin": "(1)"
+  },
+  {
+   "id": "G5",
+   "no": "5",
+   "tur": "gecici",
+   "baslik": "1/4/2010 tarihine kadar emisyon izin başvurusu yapılan dosyalar",
+   "notlar": [
+    "Ek:RG-30/3/2010-27537",
+    "Mülga:RG-20/12/2014-29211"
+   ],
+   "metin": ""
+  },
+  {
+   "id": "G6",
+   "no": "6",
+   "tur": "gecici",
+   "baslik": "Mevcut büyük yakma tesisleri için istisnai durumlar",
+   "notlar": [
+    "Ek:RG-20/12/2014-29211"
+   ],
+   "metin": "(1) 1/6/1987 tarihinden önce, faaliyet öncesi veya faaliyet sonrası için herhangi bir izin almış ve tesisin 31/7/2011 tarihinden 31/12/2019 tarihine kadar 20.000 saatten fazla çalıştırılmayacağını, 8/6/2011 tarihine kadar yazılı olarak taahhüt etmiş işletmeler; her yıl 31 Ocak gününe kadar Çevre ve Şehircilik İl Müdürlüğüne, tesisin kalan işletme ömrü için izin verilen, çalıştıkları ve çalışmaları için kalan süreyi belirten kaydı sunmaları koşulları ile Ek-5.A.1.4’te belirtilmiş olan emisyon sınır değerlerine uymaktan 31/12/2019 tarihine kadar muaftırlar."
+  },
+  {
+   "id": "G7",
+   "no": "7",
+   "tur": "gecici",
+   "baslik": "",
+   "notlar": [
+    "Ek:RG-20/12/2014-29211"
+   ],
+   "metin": "(1) 1987 tarihinden önce kurulmuş olan yatay üretim prosesi bacası olan tesislerde 1/3/2015 tarihine kadar dikey bacaya geçişe dair iş termin planının (atık gaz dağılım modelini ve baca gazı ölçümünün yapılabilmesi için gerekli izokinetik şartların sağlanacağına dair bilgileri de kapsayan) Bakanlığa sunulması koşulu ile 1/1/2016 tarihine kadar bacaların dikey hale getirilmesi zorunludur. Bu süre içinde atık gazların atmosfere dikey çıkışla verilmesine ilişkin şart aranmaz."
+  },
+  {
+   "id": "G8",
+   "no": "8",
+   "tur": "gecici",
+   "baslik": "Geçiş hükmü",
+   "notlar": [
+    "Ek:RG-6/11/2020-31296"
+   ],
+   "metin": "(6)\nBu maddeyi ihdas eden Yönetmelik ile EK-5’e eklenen “EE) YİRMİSEKİZİNCİ GRUP TESİSLER: Jeotermal Enerji Üretim Tesisleri” başlıklı kısımda yer alan hükümler 30/6/2021 tarihinden itibaren uygulanır."
+  },
+  {
+   "id": "38",
+   "no": "38",
+   "tur": "madde",
+   "baslik": "Yürürlük",
+   "notlar": [],
+   "metin": "(1) Bu Yönetmelik yayımı tarihinde yürürlüğe girer."
+  },
+  {
+   "id": "39",
+   "no": "39",
+   "tur": "madde",
+   "baslik": "Yürütme",
+   "notlar": [],
+   "metin": "(1) Bu Yönetmelik hükümlerini Çevre ve Orman Bakanı yürütür.\n(1)\nBu değişiklik 1/4/2010 tarihinde yürürlüğe girer.\n(2)\nBakınız- 14/4/2010 tarihli ve 27552 sayılı Resmi Gazete’de yayımlanan düzeltme.\n(3)\n10/10/2011tarihli ve 28080 sayılı Yönetmelik değişikliği ile 3 üncü maddesinin birinci fıkrasından sonra gelmek üzere ikinci fıkra eklenmiş ve diğer fıkralar buna göre teselsül ettirilmiştir.\nYönetmeliğin eklerini görmek için tıklayınız\nYönetmeliğin Yayımlandığı Resmî Gazete’nin\nTarihi\nSayısı\n3/7/2009\n27277\nYönetmelikte Değişiklik Yapan Yönetmeliklerin Yayımlandığı Resmî Gazetelerin\nTarihi\nSayısı\n1.\n30/3/2010\n27537\n2.\n10/10/2011\n28080\n3.\n13/4/2012\n28263\n4.\n16/6/2012\n28325\n5.\n10/11/2012\n28463\n6.\n20/12/2014\n29211\n7.\n6/11/2020\n31296"
+  }
+ ]
+}
